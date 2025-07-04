@@ -92,49 +92,174 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 ## 🏗️ Definition of Context Engineering
 
-### From Prompting Engineering to Context Engineering
-
-Traditional prompt engineering focuses on crafting individual prompts for specific tasks. Context engineering represents a paradigm shift toward comprehensive information management.
-
-### Context Definition
-
 > **Context is not just the single prompt users send to an LLM. Context is the complete information payload provided to a LLM at inference time, encompassing all structured informational components that the model needs to plausibly accomplish a given task.**
 
-### Key Distinctions
+### LLM Generation
 
-| Aspect | Prompt Engineering | Context Engineering |
-|--------|-------------------|-------------------|
-| **Scope** | Single prompt optimization | Complete information ecosystem |
-| **Approach** | Static, template-based | Dynamic, adaptive |
-| **Components** | Text prompts only | Multi-modal, structured data |
-| **Lifecycle** | Request-response | Persistent, evolving |
+To formally define Context Engineering, we must first mathematically characterize the LLM generation process. Let us model an LLM as a probabilistic function:
+
+$$P(\text{output} | \text{context}) = \prod_{t=1}^T P(\text{token}_t | \text{previous tokens}, \text{context})$$
+
+Where:
+- $\text{context}$ represents the complete input information provided to the LLM
+- $\text{output}$ represents the generated response sequence
+- $P(\text{token}_t | \text{previous tokens}, \text{context})$ is the probability of generating each token given the context
+
+### Definition of Context
+
+In traditional prompt engineering, the context is treated as a simple string:
+$$\text{context} = \text{prompt}$$
+
+However, in Context Engineering, we decompose the context into multiple structured components:
+
+$$\text{context} = \text{Assemble}(\text{instructions}, \text{knowledge}, \text{tools}, \text{memory}, \text{state}, \text{query})$$
+
+Where $\text{Assemble}$ is a context assembly function that orchestrates:
+- $\text{instructions}$: System prompts and rules
+- $\text{knowledge}$: Retrieved relevant information
+- $\text{tools}$: Available function definitions
+- $\text{memory}$: Conversation history and learned facts
+- $\text{state}$: Current world/user state
+- $\text{query}$: User's immediate request
+
+### Definition of Context Engineering
+
+**Context Engineering** is formally defined as the optimization problem:
+
+$$\text{Assemble}^* = \arg\max_{\text{Assemble}} \mathbb{E} [\text{Reward}(\text{LLM}(\text{context}), \text{target})]$$
+
+Subject to constraints:
+- $|\text{context}| \leq \text{MaxTokens}$ (context window limitation)
+- $\text{knowledge} = \text{Retrieve}(\text{query}, \text{database})$
+- $\text{memory} = \text{Select}(\text{history}, \text{query})$
+- $\text{state} = \text{Extract}(\text{world})$
+
+Where:
+- $\text{Reward}$ measures the quality of generated responses
+- $\text{Retrieve}$, $\text{Select}$, $\text{Extract}$ are functions for information gathering
+
+### Dynamic Context Orchestration
+
+The context assembly can be decomposed as:
+
+$$\text{context} = \text{Concat}(\text{Format}(\text{instructions}), \text{Format}(\text{knowledge}), \text{Format}(\text{tools}), \text{Format}(\text{memory}), \text{Format}(\text{query}))$$
+
+Where $\text{Format}$ represents component-specific structuring, and $\text{Concat}$ assembles them respecting token limits and optimal positioning.
+
+**Context Engineering** is therefore the discipline of designing and optimizing these assembly and formatting functions to maximize task performance.
+
+### Mathematical Principles
+
+From this formalization, we derive four fundamental principles:
+
+1. **System-Level Optimization**: Context generation is a multi-objective optimization problem over assembly functions, not simple string manipulation.
+
+2. **Dynamic Adaptation**: The context assembly function adapts to each $\text{query}$ and $\text{state}$ at inference time: $\text{Assemble}(\cdot | \text{query}, \text{state})$.
+
+3. **Information-Theoretic Optimality**: The retrieval function maximizes relevant information: $\text{Retrieve} = \arg\max \text{Relevance}(\text{knowledge}, \text{query})$.
+
+4. **Structural Sensitivity**: The formatting functions encode structure that aligns with LLM processing capabilities.
+
+### Theoretical Framework: Bayesian Context Inference
+
+Context Engineering can be formalized within a Bayesian framework where the optimal context is inferred:
+
+$$P(\text{context} | \text{query}, \text{history}, \text{world}) \propto P(\text{query} | \text{context}) \cdot P(\text{context} | \text{history}, \text{world})$$
+
+Where:
+- $P(\text{query} | \text{context})$ models query-context compatibility
+- $P(\text{context} | \text{history}, \text{world})$ represents prior context probability
+
+The optimal context assembly becomes:
+
+$$\text{context}^* = \arg\max_{\text{context}} P(\text{answer} | \text{query}, \text{context}) \cdot P(\text{context} | \text{query}, \text{history}, \text{world})$$
+
+This Bayesian formulation enables:
+- **Uncertainty Quantification**: Modeling confidence in context relevance
+- **Adaptive Retrieval**: Updating context beliefs based on feedback
+- **Multi-step Reasoning**: Maintaining context distributions across interactions
+
+### Mathematical Comparison
+
+| Dimension | Prompt Engineering | Context Engineering |
+|-----------|-------------------|-------------------|
+| **Mathematical Model** | $\text{context} = \text{prompt}$ (static) | $\text{context} = \text{Assemble}(...)$ (dynamic) |
+| **Optimization Target** | $\arg\max_{\text{prompt}} P(\text{answer}$ | $\text{query}, \text{prompt})$ | $\arg\max_{\text{Assemble}} \mathbb{E}[\text{Reward}(...)]$ |
+| **Complexity** | $O(1)$ context assembly | $O(n)$ multi-component optimization |
+| **Information Theory** | Fixed information content | Adaptive information maximization |
+| **State Management** | Stateless function | Stateful with $\text{memory}(\text{history}, \text{query})$ |
+| **Scalability** | Linear in prompt length | Sublinear through compression/filtering |
+| **Error Analysis** | Manual prompt inspection | Systematic evaluation of assembly components |
 
 ---
 
 ## 🤔 Why Context Engineering?
 
-### 1. Human Intent Expression Challenges
-- **Ambiguous Communication**: Human intentions are often unclear or incomplete
-- **AI Interpretation Gaps**: AI systems may interpret human instructions too literally
-- **Context Dependency**: Meaning heavily depends on situational context
+### The Paradigm Shift: From Tactical to Strategic
 
-### 2. Complex Problem Solving Requirements
-Modern AI applications require:
-- **Large-scale Knowledge**: Vast amounts of relevant information
-- **Accurate Information**: Precise, up-to-date data
-- **Novel Knowledge**: Dynamic, evolving information sources
+The evolution from prompt engineering to context engineering represents a fundamental maturation in AI system design. As influential figures like Andrej Karpathy, Tobi Lutke, and Simon Willison have argued, the term "prompt engineering" has been diluted to mean simply "typing things into a chatbot," failing to capture the complexity required for industrial-strength LLM applications.
 
-### 3. Production-Grade Reliability
-- **Consistency**: Reproducible outputs across different contexts
-- **Scalability**: Handling increasing complexity and volume
-- **Robustness**: Graceful degradation under uncertainty
+### 1. Enterprise and Production Necessities
 
-### 4. Tacit Knowledge Capture
-The most critical aspect is Context Scaling's ability to capture "tacit knowledge" - knowledge that humans acquire but find difficult to articulate:
-- **Social Intelligence**: Reading non-verbal cues and social dynamics
-- **Cultural Adaptation**: Understanding unspoken social rules
-- **Situational Judgment**: Contextual interpretation of identical statements
-- **Dynamic Adaptation**: Continuous strategy adjustment in changing environments
+#### Context Failures Are the New Bottleneck
+Most failures in modern agentic systems are no longer attributable to core model reasoning capabilities but are instead **"context failures"**. The true engineering challenge lies not in what question to ask, but in ensuring the model has all necessary background, data, tools, and memory to answer meaningfully and reliably.
+
+#### Scalability Beyond Simple Tasks
+While prompt engineering suffices for simple, self-contained tasks, it breaks down when scaled to:
+- **Complex, multi-step applications**
+- **Data-rich enterprise environments** 
+- **Stateful, long-running workflows**
+- **Multi-user, multi-tenant systems**
+
+Context Engineering provides the architectural foundation for managing state, integrating diverse data sources, and maintaining coherence across these demanding scenarios.
+
+### 2. The Limitations of Static Prompting
+
+#### From Strings to Systems
+Traditional prompting treats context as a static string, but enterprise applications require:
+- **Dynamic Information Assembly**: Context created on-the-fly, tailored to specific users and queries
+- **Multi-Source Integration**: Combining databases, APIs, documents, and real-time data
+- **State Management**: Maintaining conversation history, user preferences, and workflow status
+- **Tool Orchestration**: Coordinating external function calls and API interactions
+
+#### The "Movie Production" Analogy
+If prompt engineering is writing a single line of dialogue for an actor, context engineering is the entire process of building the set, designing lighting, providing detailed backstory, and directing the scene. The dialogue only achieves its intended impact because of the rich, carefully constructed environment surrounding it.
+
+### 3. Cognitive and Information Science Foundations
+
+#### Artificial Embodiment
+LLMs are essentially "brains in a vat" - powerful reasoning engines lacking connection to specific environments. Context Engineering provides:
+- **Synthetic Sensory Systems**: Retrieval mechanisms as artificial perception
+- **Proxy Embodiment**: Tool use as artificial action capabilities  
+- **Artificial Memory**: Structured information storage and retrieval
+
+#### Information Retrieval at Scale
+Context Engineering addresses the fundamental challenge of information retrieval where the "user" is not human but an AI agent. This requires:
+- **Semantic Understanding**: Bridging the gap between intent and expression
+- **Relevance Optimization**: Ranking and filtering vast knowledge bases
+- **Query Transformation**: Converting ambiguous requests into precise retrieval operations
+
+### 4. Production-Grade Requirements
+
+#### Reliability and Consistency
+Enterprise applications demand:
+- **Deterministic Behavior**: Predictable outputs across different contexts and users
+- **Error Handling**: Graceful degradation when information is incomplete or contradictory
+- **Audit Trails**: Transparency in how context influences model decisions
+- **Compliance**: Meeting regulatory requirements for data handling and decision making
+
+#### Economic and Operational Efficiency
+Context Engineering enables:
+- **Cost Optimization**: Strategic choice between RAG and long-context approaches
+- **Latency Management**: Efficient information retrieval and context assembly
+- **Resource Utilization**: Optimal use of finite context windows and computational resources
+- **Maintenance Scalability**: Systematic approaches to updating and managing knowledge bases
+
+### 5. The Future of AI System Architecture
+
+Context Engineering elevates AI development from a collection of "prompting tricks" to a rigorous discipline of systems architecture. It applies decades of knowledge in operating system design, memory management, and distributed systems to the unique challenges of LLM-based applications.
+
+This discipline is foundational for unlocking the full potential of LLMs in production systems, enabling the transition from one-off text generation to autonomous agents and sophisticated AI copilots that can reliably operate in complex, dynamic environments.
 
 ---
 
