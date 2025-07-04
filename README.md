@@ -72,6 +72,22 @@ This repository serves as a comprehensive survey of context engineering techniqu
 <li><i><b>From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs</b></i>, Wu et al., <a href="https://arxiv.org/abs/2504.15965" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.04-red" alt="arXiv Badge"></a></li>
 </ul>
 
+<b>Foundational Survey Papers from Major Venues</b>
+<ul>
+<li><i><b>AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts</b></i>, Shin et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2020-blue" alt="EMNLP Badge"></a></li>
+<li><i><b>The Power of Scale for Parameter-Efficient Prompt Tuning</b></i>, Lester et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2021-blue" alt="EMNLP Badge"></a></li>
+<li><i><b>Prefix-Tuning: Optimizing Continuous Prompts for Generation</b></i>, Li et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ACL-2021-blue" alt="ACL Badge"></a></li>
+<li><i><b>An Explanation of In-context Learning as Implicit Bayesian Inference</b></i>, Xie et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ICLR-2022-blue" alt="ICLR Badge"></a></li>
+<li><i><b>Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?</b></i>, Min et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2022-blue" alt="EMNLP Badge"></a></li>
+</ul>
+
+<b>Additional RAG and Retrieval Surveys</b>
+<ul>
+<li><i><b>Retrieval-Augmented Generation for AI-Generated Content: A Survey</b></i>, Various, <a href="https://arxiv.org/abs/2402.19473" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a></li>
+<li><i><b>Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely</b></i>, Various, <a href="https://arxiv.org/abs/2409.14924" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Large language models (LLMs): survey, technical frameworks, and future challenges</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/AIR-2024-blue" alt="AIR Badge"></a></li>
+</ul>
+
 ---
 
 ## 🏗️ Definition of Context Engineering
@@ -149,6 +165,13 @@ The most critical aspect is Context Scaling's ability to capture "tacit knowledg
 <li><i><b>∞Bench: Extending Long Context Evaluation Beyond 100K Tokens</b></i>, Bai et al., <a href="https://arxiv.org/abs/2412.00359" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.06-blue" alt="ACL Badge"></a></li>
 </ul>
 
+<b>Comprehensive Extension Surveys and Methods</b>
+<ul>
+<li><i><b>Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models</b></i>, Various, <a href="https://arxiv.org/abs/2402.02244" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a></li>
+<li><i><b>A Controlled Study on Long Context Extension and Generalization in LLMs</b></i>, Various, <a href="https://arxiv.org/abs/2409.12181" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.09-red" alt="arXiv Badge"></a></li>
+<li><i><b>Selective Attention: Enhancing Transformer through Principled Context Control</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2024-blue" alt="NeurIPS Badge"></a></li>
+</ul>
+
 <b>Vision-Language Models with Sophisticated Context Understanding</b>
 <ul>
 <li><i><b>Towards LLM-Centric Multimodal Fusion: A Survey on Integration Strategies and Techniques</b></i>, An et al., <a href="https://arxiv.org/abs/2506.04788" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a></li>
@@ -170,6 +193,18 @@ The most critical aspect is Context Scaling's ability to capture "tacit knowledg
 <li><i><b>CaMML: Context-Aware Multimodal Learner for Large Models</b></i>, Chen et al., <a href="https://arxiv.org/abs/2404.11406" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a></li>
 <li><i><b>Visual In-Context Learning for Large Vision-Language Models</b></i>, Zhou et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a></li>
 <li><i><b>CAMA: Enhancing Multimodal In-Context Learning with Context-Aware Modulated Attention</b></i>, Li et al., <a href="https://arxiv.org/abs/2505.17097" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a></li>
+</ul>
+
+<b>CVPR 2024 Vision-Language Advances</b>
+<ul>
+<li><i><b>CogAgent: A Visual Language Model for GUI Agents</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a></li>
+<li><i><b>LISA: Reasoning Segmentation via Large Language Model</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a></li>
+<li><i><b>Reproducible scaling laws for contrastive language-image learning</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2023-blue" alt="CVPR Badge"></a></li>
+</ul>
+
+<b>Video and Temporal Understanding</b>
+<ul>
+<li><i><b>Video Understanding with Large Language Models: A Survey</b></i>, Various, <a href="https://arxiv.org/abs/2312.17432" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a></li>
 </ul>
 
 ### Structured Data Integration
@@ -195,6 +230,14 @@ The most critical aspect is Context Scaling's ability to capture "tacit knowledg
 <li><i><b>CoddLLM: Empowering Large Language Models for Data Analytics</b></i>, Authors et al., <a href="https://arxiv.org/abs/2502.00329" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>Structure-Guided Large Language Models for Text-to-SQL Generation</b></i>, Authors et al., <a href="https://arxiv.org/abs/2402.13284" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a></li>
 <li><i><b>StructuredRAG: JSON Response Formatting with Large Language Models</b></i>, Authors et al., <a href="https://arxiv.org/abs/2408.11061" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.08-red" alt="arXiv Badge"></a></li>
+</ul>
+
+<b>Foundational KG-LLM Integration Methods</b>
+<ul>
+<li><i><b>Unifying Large Language Models and Knowledge Graphs: A Roadmap</b></i>, Various, <a href="https://arxiv.org/abs/2306.08302" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.06-red" alt="arXiv Badge"></a></li>
+<li><i><b>Combining Knowledge Graphs and Large Language Models</b></i>, Various, <a href="https://arxiv.org/abs/2407.06564" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.07-red" alt="arXiv Badge"></a></li>
+<li><i><b>All Against Some: Efficient Integration of Large Language Models for Message Passing in Graph Neural Networks</b></i>, Various, <a href="https://arxiv.org/abs/2407.14996" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.07-red" alt="arXiv Badge"></a></li>
+<li><i><b>Large Language Models for Graph Learning</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/WWW-2024-blue" alt="WWW Badge"></a></li>
 </ul>
 
 ### Self-Generated Context
@@ -226,6 +269,11 @@ The most critical aspect is Context Scaling's ability to capture "tacit knowledg
 <li><i><b>Meta-in-context learning in large language models</b></i>, Coda-Forno et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023.12-blue" alt="NeurIPS Badge"></a></li>
 <li><i><b>EvoPrompt: Connecting LLMs with Evolutionary Algorithms Yields Powerful Prompt Optimizers</b></i>, Guo et al., <a href="https://arxiv.org/abs/2309.08532" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024.01-blue" alt="ICLR Badge"></a></li>
 <li><i><b>AutoPDL: Automatic Prompt Optimization for LLM Agents</b></i>, Spiess et al., <a href="https://arxiv.org/abs/2504.04365" target="_blank"><img src="https://img.shields.io/badge/AutoML-2025.04-orange" alt="AutoML Badge"></a></li>
+</ul>
+
+<b>Foundational Chain-of-Thought Research</b>
+<ul>
+<li><i><b>Chain-of-thought prompting elicits reasoning in large language models</b></i>, Wei et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2022-blue" alt="NeurIPS Badge"></a></li>
 </ul>
 
 ---
