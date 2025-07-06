@@ -993,7 +993,7 @@ If you find this survey helpful in your research, please consider citing:
   title={Awesome Context Engineering},
   author={UCAS Context Engineering Survey Team},
   year={2025},
-  howpublished={\url{https://github.com/your-username/Awesome-Context-Engineering}},
+  howpublished={\url{https://github.com/Meirtz/Awesome-Context-Engineering}},
   note={GitHub repository}
 }
 ```
