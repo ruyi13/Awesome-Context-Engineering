@@ -183,7 +183,7 @@ Where $\text{Assemble}$ is a context assembly function that orchestrates:
 $$\text{Assemble}^* = \arg\max_{\text{Assemble}} \mathbb{E} [\text{Reward}(\text{LLM}(\text{context}), \text{target})]$$
 
 Subject to constraints:
-- $|\text{context}| \leq \text{MaxTokens}$ (context window limitation)
+- $|\text{context}| \leq \text{MaxTokens} \text{(context window limitation)}$
 - $\text{knowledge} = \text{Retrieve}(\text{query}, \text{database})$
 - $\text{memory} = \text{Select}(\text{history}, \text{query})$
 - $\text{state} = \text{Extract}(\text{world})$
@@ -238,7 +238,7 @@ This Bayesian formulation enables:
 | Dimension | Prompt Engineering | Context Engineering |
 |-----------|-------------------|-------------------|
 | **Mathematical Model** | $\text{context} = \text{prompt}$ (static) | $\text{context} = \text{Assemble}(...)$ (dynamic) |
-| **Optimization Target** | $\arg\max_{\text{prompt}} P(\text{answer}$ | $\text{query}, \text{prompt})$ | $\arg\max_{\text{Assemble}} \mathbb{E}[\text{Reward}(...)]$ |
+| **Optimization Target** | $\arg\max_{\text{prompt}} P(\text{answer} \mid \text{query}, \text{prompt})$ | $\arg\max_{\text{Assemble}} \mathbb{E}[\text{Reward}(...)]$ |
 | **Complexity** | $O(1)$ context assembly | $O(n)$ multi-component optimization |
 | **Information Theory** | Fixed information content | Adaptive information maximization |
 | **State Management** | Stateless function | Stateful with $\text{memory}(\text{history}, \text{query})$ |
