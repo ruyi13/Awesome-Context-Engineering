@@ -233,7 +233,7 @@ This Bayesian formulation enables:
 - **Adaptive Retrieval**: Updating context beliefs based on feedback
 - **Multi-step Reasoning**: Maintaining context distributions across interactions
 
-### Mathematical Comparison
+### Comparison
 
 | Dimension | Prompt Engineering | Context Engineering |
 |-----------|-------------------|-------------------|
