@@ -870,10 +870,20 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 <b>Synthetic vs. Realistic Evaluation</b>
 <ul>
-<li><i><b>Needle-in-a-Haystack (NIAH) and Synthetic Benchmarks</b></i>, Research Area 2023-2024, <a href="#" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2024-orange" alt="Benchmark Badge"></a></li>
-<li><i><b>ZeroSCROLLS: Realistic Natural Language Tasks</b></i>, Benchmark 2023-2024, <a href="#" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2024-orange" alt="Benchmark Badge"></a></li>
-<li><i><b>InfiniteBench: 100K+ Token Evaluation</b></i>, Benchmark 2024, <a href="#" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2024-orange" alt="Benchmark Badge"></a></li>
+<li><i><b>Needle-in-a-Haystack (NIAH) and Synthetic Benchmarks</b></i>, Research Area 2023-2024, <a href="#" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2024-orange" alt="Benchmark Badge"></a>
+    <a href="https://github.com/gkamradt/LLMTest_NeedleInAHaystack" target="_blank">
+  		<img src="https://img.shields.io/github/stars/gkamradt/LLMTest_NeedleInAHaystack.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>ZeroSCROLLS: Realistic Natural Language Tasks</b></i>, Benchmark 2023-2024, <a href="#" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2024-orange" alt="Benchmark Badge"></a>
+    <a href="https://github.com/tau-nlp/zero_scrolls" target="_blank">
+  		<img src="https://img.shields.io/github/stars/tau-nlp/zero_scrolls.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>InfiniteBench: 100K+ Token Evaluation</b></i>, Benchmark 2024, <a href="#" target="_blank"><img src="https://img.shields.io/badge/Benchmark-2024-orange" alt="Benchmark Badge"></a>
+    <a href="https://github.com/OpenBMB/InfiniteBench" target="_blank">
+  		<img src="https://img.shields.io/github/stars/OpenBMB/InfiniteBench.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
+
 
 ---
 
@@ -883,20 +893,35 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 <b>Hypothesis Generation and Data-Driven Discovery</b>
 <ul>
-<li><i><b>Hypothesis Generation with Large Language Models</b></i>, Liu et al., <a href="https://arxiv.org/abs/2404.04326" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a></li>
-<li><i><b>GFlowNets for AI-Driven Scientific Discovery</b></i>, Jain et al., <a href="https://doi.org/10.1039/D3DD00002H" target="_blank"><img src="https://img.shields.io/badge/Digital_Discovery-2023.06-blue" alt="Digital Discovery Badge"></a></li>
-<li><i><b>Literature Meets Data: A Synergistic Approach to Hypothesis Generation</b></i>, Liu et al., <a href="https://arxiv.org/abs/2410.17309" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a></li>
-<li><i><b>Machine Learning for Hypothesis Generation in Biology and Medicine</b></i>, FieldSHIFT Team, <a href="https://doi.org/10.1039/D3DD00185G" target="_blank"><img src="https://img.shields.io/badge/Digital_Discovery-2024.02-blue" alt="Digital Discovery Badge"></a></li>
+<li><i><b>Hypothesis Generation with Large Language Models</b></i>, Liu et al., <a href="https://arxiv.org/abs/2404.04326" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/ChicagoHAI/hypothesis-generation" target="_blank">
+  		<img src="https://img.shields.io/github/stars/ChicagoHAI/hypothesis-generation.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>GFlowNets for AI-Driven Scientific Discovery</b></i>, Jain et al., <a href="https://doi.org/10.1039/D3DD00002H" target="_blank"><img src="https://img.shields.io/badge/Digital_Discovery-2023.06-blue" alt="Digital Discovery Badge"></a>
+    </li>
+<li><i><b>Literature Meets Data: A Synergistic Approach to Hypothesis Generation</b></i>, Liu et al., <a href="https://arxiv.org/abs/2410.17309" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/ChicagoHAI/hypothesis-generation" target="_blank">
+  		<img src="https://img.shields.io/github/stars/ChicagoHAI/hypothesis-generation.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Machine Learning for Hypothesis Generation in Biology and Medicine</b></i>, FieldSHIFT Team, <a href="https://doi.org/10.1039/D3DD00185G" target="_blank"><img src="https://img.shields.io/badge/Digital_Discovery-2024.02-blue" alt="Digital Discovery Badge"></a>
+    </li>
 </ul>
 
 <b>Automated Scientific Discovery</b>
+
 <ul>
-<li><i><b>The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery</b></i>, Lu et al., <a href="https://arxiv.org/abs/2408.06292" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.08-red" alt="arXiv Badge"></a></li>
-<li><i><b>Automating Psychological Hypothesis Generation with AI</b></i>, Johnson et al., <a href="https://doi.org/10.1038/s41599-024-03407-5" target="_blank"><img src="https://img.shields.io/badge/Nature-2024.07-blue" alt="Nature Badge"></a></li>
-<li><i><b>Can Large Language Models Replace Humans in Systematic Reviews?</b></i>, Khraisha et al., <a href="https://doi.org/10.1002/jrsm.1715" target="_blank"><img src="https://img.shields.io/badge/Research_Synthesis-2024-blue" alt="Research Synthesis Badge"></a></li>
+<li><i><b>The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery</b></i>, Lu et al., <a href="https://arxiv.org/abs/2408.06292" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.08-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/SakanaAI/AI-Scientist" target="_blank">
+  		<img src="https://img.shields.io/github/stars/SakanaAI/AI-Scientist.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Automating Psychological Hypothesis Generation with AI</b></i>, Johnson et al., <a href="https://doi.org/10.1038/s41599-024-03407-5" target="_blank"><img src="https://img.shields.io/badge/Nature-2024.07-blue" alt="Nature Badge"></a>
+    </li>
+<li><i><b>Can Large Language Models Replace Humans in Systematic Reviews?</b></i>, Khraisha et al., <a href="https://doi.org/10.1002/jrsm.1715" target="_blank"><img src="https://img.shields.io/badge/Research_Synthesis-2024-blue" alt="Research Synthesis Badge"></a>
+    </li>
 </ul>
 
 <b>AI for Science Integration and Future Directions</b>
+
 <ul>
 <li><i><b>AI for Science 2025: Convergence of AI Innovation and Scientific Discovery</b></i>, Fink et al., <a href="https://doi.org/10.1038/d41573-025-00161-3" target="_blank"><img src="https://img.shields.io/badge/Nature-2025.05-blue" alt="Nature Badge"></a></li>
 <li><i><b>Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2412.11427" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a></li>
@@ -904,11 +929,18 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 <b>Deep Research Applications</b>
 <ul>
-<li><i><b>Accelerating scientific discovery with AI</b></i>, MIT News, <a href="https://news.mit.edu/2025/futurehouse-accelerates-scientific-discovery-with-ai-0630" target="_blank"><img src="https://img.shields.io/badge/MIT-2025.06-blue" alt="MIT Badge"></a></li>
-<li><i><b>Accelerating scientific breakthroughs with an AI co-scientist</b></i>, Google Research, <a href="https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/" target="_blank"><img src="https://img.shields.io/badge/Google-2024-blue" alt="Google Badge"></a></li>
-<li><i><b>Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science</b></i>, Various, <a href="https://arxiv.org/abs/2412.09628" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a></li>
-<li><i><b>AI for scientific discovery</b></i>, World Economic Forum, <a href="https://www.weforum.org/publications/top-10-emerging-technologies-2024/in-full/1-ai-for-scientific-discovery/" target="_blank"><img src="https://img.shields.io/badge/WEF-2024-blue" alt="WEF Badge"></a></li>
+<li><i><b>Accelerating scientific discovery with AI</b></i>, MIT News, <a href="https://news.mit.edu/2025/futurehouse-accelerates-scientific-discovery-with-ai-0630" target="_blank"><img src="https://img.shields.io/badge/MIT-2025.06-blue" alt="MIT Badge"></a>
+    </li>
+<li><i><b>Accelerating scientific breakthroughs with an AI co-scientist</b></i>, Google Research, <a href="https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/" target="_blank"><img src="https://img.shields.io/badge/Google-2024-blue" alt="Google Badge"></a>
+    </li>
+<li><i><b>Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science</b></i>, Various, <a href="https://arxiv.org/abs/2412.09628" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/charles-pyj/Bridging-AI-and-Science" target="_blank">
+  		<img src="https://img.shields.io/github/stars/charles-pyj/Bridging-AI-and-Science.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>AI for scientific discovery</b></i>, World Economic Forum, <a href="https://www.weforum.org/publications/top-10-emerging-technologies-2024/in-full/1-ai-for-scientific-discovery/" target="_blank"><img src="https://img.shields.io/badge/WEF-2024-blue" alt="WEF Badge"></a>
+    </li>
 </ul>
+
 
 ### Production Systems
 
