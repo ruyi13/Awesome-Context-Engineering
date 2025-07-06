@@ -984,6 +984,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 📑 Citation
+
+If you find this survey helpful in your research, please consider citing:
+
+```bibtex
+@misc{awesome-context-engineering2025,
+  title={Awesome Context Engineering},
+  author={UCAS Context Engineering Survey Team},
+  year={2025},
+  howpublished={\url{https://github.com/your-username/Awesome-Context-Engineering}},
+  note={GitHub repository}
+}
+```
+
+---
+
 ## 📧 Contact
 
 For questions, suggestions, or collaboration opportunities, please feel free to reach out:
