@@ -39,8 +39,8 @@ This repository serves as a comprehensive survey of context engineering techniqu
 - [Related Survey](#related-survey)
 - [Definition of Context Engineering](#definition-of-context-engineering)
 - [Why Context Engineering?](#why-context-engineering)
-- [Contextual Components, Techniques and Architectures](#contextual-components-techniques-and-architectures)
-- [Implementation, Challenges, and Mitigation Strategies](#implementation-challenges-and-mitigation-strategies)
+- [Components, Techniques and Architectures](#contextual-components-techniques-and-architectures)
+- [Implementation and Challenges](#implementation-challenges-and-mitigation-strategies)
 - [Evaluation Paradigms for Context-Driven Systems](#evaluation-paradigms-for-context-driven-systems)
 - [Applications and Systems](#applications-and-systems)
 - [Limitations and Future Directions](#limitations-and-future-directions)
@@ -339,7 +339,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 ---
 
-## 🔧 Contextual Components, Techniques and Architectures
+## 🔧 Components, Techniques and Architectures
 
 ### Context Scaling
 
@@ -630,7 +630,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 ---
 
-## 🛠️ Implementation, Challenges, and Mitigation Strategies
+## 🛠️ Implementation and Challenges
 
 ### 1. Retrieval-Augmented Generation (RAG)
 
