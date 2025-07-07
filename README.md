@@ -36,14 +36,48 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 ## 📚 Table of Contents
 
-- [Related Survey](#related-survey)
-- [Definition of Context Engineering](#definition-of-context-engineering)
-- [Why Context Engineering?](#why-context-engineering)
-- [Components, Techniques and Architectures](#components-techniques-and-architectures)
-- [Implementation and Challenges](#implementation-challenges-and-mitigation-strategies)
-- [Evaluation](#evaluation-paradigms-for-context-driven-systems)
-- [Applications](#applications-and-systems)
-- [Limitations and Future Directions](#limitations-and-future-directions)
+- [🔗 Related Survey](#-related-survey)
+  - General AI Survey Papers
+  - Context and Reasoning  
+  - Memory Systems and Context Persistence
+
+- [🏗️ Definition of Context Engineering](#-definition-of-context-engineering)
+  - LLM Generation Process
+  - Definition of Context
+  - Context Engineering Formalization
+  - Dynamic Context Orchestration
+  - Mathematical Principles & Bayesian Framework
+
+- [🤔 Why Context Engineering?](#-why-context-engineering)
+  - The Paradigm Shift: From Tactical to Strategic
+  - Fundamental Challenges with Current Approaches
+  - Limitations of Static Prompting
+  - Enterprise and Production Requirements
+  - Cognitive and Information Science Foundations
+
+- [🔧 Components, Techniques and Architectures](#-components-techniques-and-architectures)
+  - **Context Scaling**: Position interpolation, memory-efficient attention, ultra-long sequences (100K+ tokens)
+  - **Structured Data Integration**: Knowledge graphs, graph neural networks, structured data processing
+  - **Self-Generated Context**: Autonomous reasoning, iterative refinement, self-improvement
+
+- [🛠️ Implementation and Challenges](#-implementation-and-challenges)
+  - **Retrieval-Augmented Generation (RAG)**: Foundation models, advanced strategies, multimodal integration
+  - **Memory Systems**: Persistent context, hierarchical memory, long-term storage
+  - **Agent Communication**: Multi-agent protocols, coordination, collaborative reasoning
+  - **Tool Use and Function Calling**: API integration, external system interaction
+
+- [📊 Evaluation Paradigms for Context-Driven Systems](#-evaluation-paradigms-for-context-driven-systems)
+  - Context Quality Assessment (RULER, LongBench, InfiniteBench)
+  - Benchmarking Context Engineering Systems
+
+- [🚀 Applications and Systems](#-applications-and-systems)
+  - **Complex Research Systems**: AI-powered scientific discovery, automated research workflows
+  - **Production Systems**: Enterprise applications, conversational agents, real-world deployments
+
+- [🔮 Limitations and Future Directions](#-limitations-and-future-directions)
+  - Current Technical Limitations
+  - Future Research Opportunities
+  - Emerging Paradigms and Technologies
 
 ---
 
