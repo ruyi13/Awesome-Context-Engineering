@@ -39,10 +39,10 @@ This repository serves as a comprehensive survey of context engineering techniqu
 - [Related Survey](#related-survey)
 - [Definition of Context Engineering](#definition-of-context-engineering)
 - [Why Context Engineering?](#why-context-engineering)
-- [Components, Techniques and Architectures](#contextual-components-techniques-and-architectures)
+- [Components, Techniques and Architectures](#components-techniques-and-architectures)
 - [Implementation and Challenges](#implementation-challenges-and-mitigation-strategies)
-- [Evaluation Paradigms for Context-Driven Systems](#evaluation-paradigms-for-context-driven-systems)
-- [Applications and Systems](#applications-and-systems)
+- [Evaluation](#evaluation-paradigms-for-context-driven-systems)
+- [Applications](#applications-and-systems)
 - [Limitations and Future Directions](#limitations-and-future-directions)
 
 ---
@@ -405,21 +405,38 @@ This Bayesian formulation enables:
 
 The evolution from prompt engineering to context engineering represents a fundamental maturation in AI system design. As influential figures like Andrej Karpathy, Tobi Lutke, and Simon Willison have argued, the term "prompt engineering" has been diluted to mean simply "typing things into a chatbot," failing to capture the complexity required for industrial-strength LLM applications.
 
-### 1. Enterprise and Production Necessities
+### 1. Fundamental Challenges with Current Approaches
 
-#### Context Failures Are the New Bottleneck
-Most failures in modern agentic systems are no longer attributable to core model reasoning capabilities but are instead **"context failures"**. The true engineering challenge lies not in what question to ask, but in ensuring the model has all necessary background, data, tools, and memory to answer meaningfully and reliably.
+#### Human Intent Communication Challenges
+- **Unclear Human Intent Expression**: Human intentions are often unclear, incomplete, or ambiguous when expressed in natural language
+- **AI's Incomplete Understanding of Human Intent**: AI systems struggle to fully comprehend complex human intentions, especially those involving implicit context or cultural nuances
+- **Overly Literal AI Interpretation**: AI systems often interpret human instructions too literally, missing the underlying intent or contextual meaning
 
-#### Scalability Beyond Simple Tasks
-While prompt engineering suffices for simple, self-contained tasks, it breaks down when scaled to:
-- **Complex, multi-step applications**
-- **Data-rich enterprise environments** 
-- **Stateful, long-running workflows**
-- **Multi-user, multi-tenant systems**
+*[Placeholder: Academic papers on human-AI communication challenges, intent recognition, and natural language understanding limitations]*
 
-Context Engineering provides the architectural foundation for managing state, integrating diverse data sources, and maintaining coherence across these demanding scenarios.
+#### Complex Knowledge Requirements
+Single models alone cannot solve complex problems that require:
+- **(1) Large-scale External Knowledge**: Vast amounts of external knowledge that exceed model capacity
+- **(2) Accurate External Knowledge**: Precise, up-to-date information that models may not possess
+- **(3) Novel External Knowledge**: Emerging knowledge that appears after model training
 
-### 2. The Limitations of Static Prompting
+**Static Knowledge Limitations:**
+- **Static Knowledge Problem**: Pre-trained models contain static knowledge that becomes outdated
+- **Knowledge Cutoff**: Models cannot access information beyond their training data
+- **Domain-Specific Gaps**: Models lack specialized knowledge for specific industries or applications
+
+*[Placeholder: Papers on knowledge augmentation, external knowledge integration, and dynamic knowledge updating]*
+
+#### Reliability and Trustworthiness Issues
+- **AI Hallucination**: LLMs generate plausible but factually incorrect information when lacking proper context
+- **Lack of Provenance**: Absence of clear source attribution for generated information
+- **Confidence Calibration**: Models often appear confident even when generating false information
+- **Transparency Gaps**: Inability to trace how conclusions were reached
+- **Accountability Issues**: Difficulty in verifying the reliability of AI-generated content
+
+*[Placeholder: Research on hallucination mitigation, source attribution, and AI transparency]*
+
+### 2. Limitations of Static Prompting
 
 #### From Strings to Systems
 Traditional prompting treats context as a static string, but enterprise applications require:
@@ -431,21 +448,17 @@ Traditional prompting treats context as a static string, but enterprise applicat
 #### The "Movie Production" Analogy
 If prompt engineering is writing a single line of dialogue for an actor, context engineering is the entire process of building the set, designing lighting, providing detailed backstory, and directing the scene. The dialogue only achieves its intended impact because of the rich, carefully constructed environment surrounding it.
 
-### 3. Cognitive and Information Science Foundations
+### 3. Enterprise and Production Requirements
 
-#### Artificial Embodiment
-LLMs are essentially "brains in a vat" - powerful reasoning engines lacking connection to specific environments. Context Engineering provides:
-- **Synthetic Sensory Systems**: Retrieval mechanisms as artificial perception
-- **Proxy Embodiment**: Tool use as artificial action capabilities  
-- **Artificial Memory**: Structured information storage and retrieval
+#### Context Failures Are the New Bottleneck
+Most failures in modern agentic systems are no longer attributable to core model reasoning capabilities but are instead **"context failures"**. The true engineering challenge lies not in what question to ask, but in ensuring the model has all necessary background, data, tools, and memory to answer meaningfully and reliably.
 
-#### Information Retrieval at Scale
-Context Engineering addresses the fundamental challenge of information retrieval where the "user" is not human but an AI agent. This requires:
-- **Semantic Understanding**: Bridging the gap between intent and expression
-- **Relevance Optimization**: Ranking and filtering vast knowledge bases
-- **Query Transformation**: Converting ambiguous requests into precise retrieval operations
-
-### 4. Production-Grade Requirements
+#### Scalability Beyond Simple Tasks
+While prompt engineering suffices for simple, self-contained tasks, it breaks down when scaled to:
+- **Complex, multi-step applications**
+- **Data-rich enterprise environments** 
+- **Stateful, long-running workflows**
+- **Multi-user, multi-tenant systems**
 
 #### Reliability and Consistency
 Enterprise applications demand:
@@ -460,6 +473,22 @@ Context Engineering enables:
 - **Latency Management**: Efficient information retrieval and context assembly
 - **Resource Utilization**: Optimal use of finite context windows and computational resources
 - **Maintenance Scalability**: Systematic approaches to updating and managing knowledge bases
+
+Context Engineering provides the architectural foundation for managing state, integrating diverse data sources, and maintaining coherence across these demanding scenarios.
+
+### 4. Cognitive and Information Science Foundations
+
+#### Artificial Embodiment
+LLMs are essentially "brains in a vat" - powerful reasoning engines lacking connection to specific environments. Context Engineering provides:
+- **Synthetic Sensory Systems**: Retrieval mechanisms as artificial perception
+- **Proxy Embodiment**: Tool use as artificial action capabilities  
+- **Artificial Memory**: Structured information storage and retrieval
+
+#### Information Retrieval at Scale
+Context Engineering addresses the fundamental challenge of information retrieval where the "user" is not human but an AI agent. This requires:
+- **Semantic Understanding**: Bridging the gap between intent and expression
+- **Relevance Optimization**: Ranking and filtering vast knowledge bases
+- **Query Transformation**: Converting ambiguous requests into precise retrieval operations
 
 ### 5. The Future of AI System Architecture
 
@@ -494,7 +523,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 </ul>
 
 <b>Memory-Efficient Attention Mechanisms</b>
-
 <ul>
 <li><i><b>Fast Multipole Attention: A Divide-and-Conquer Attention Mechanism for Long Sequences</b></i>, Kang et al., <a href="https://arxiv.org/abs/2310.11960" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024.02-blue" alt="ICLR Badge"></a>
     <a href="https://github.com/yanmingk/FMA" target="_blank">
@@ -514,7 +542,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
-
 <b>Ultra-Long Sequence Processing (100K+ Tokens)</b>
 <ul>
 <li><i><b>TokenSwift: Lossless Acceleration of Ultra Long Sequence Generation</b></i>, Wu et al., <a href="https://arxiv.org/abs/2502.18890" target="_blank"><img src="https://img.shields.io/badge/ICML-2025.02-blue" alt="ICML Badge"></a>
@@ -531,7 +558,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
-
 <b>Comprehensive Extension Surveys and Methods</b>
 <ul>
 <li><i><b>Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models</b></i>, Various, <a href="https://arxiv.org/abs/2402.02244" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
@@ -545,80 +571,6 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
   		<img src="https://img.shields.io/github/stars/umich-sota/selective_attention.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
-
-<b>Vision-Language Models with Sophisticated Context Understanding</b>
-
-<ul>
-<li><i><b>Towards LLM-Centric Multimodal Fusion: A Survey on Integration Strategies and Techniques</b></i>, An et al., <a href="https://arxiv.org/abs/2506.04788" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>Browse and Concentrate: Comprehending Multimodal Content via Prior-LLM Context Fusion</b></i>, Wang et al., <a href="https://doi.org/10.18653/v1/2024.acl-long.605" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
-    <a href="https://github.com/THUNLP-MT/Brote" target="_blank">
-  		<img src="https://img.shields.io/github/stars/THUNLP-MT/Brote.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>V2PE: Improving Multimodal Long-Context Capability of Vision-Language Models with Variable Visual Position Encoding</b></i>, Dai et al., <a href="https://arxiv.org/abs/2412.09616" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
-    <a href="https://github.com/OpenGVLab/V2PE" target="_blank">
-  		<img src="https://img.shields.io/github/stars/OpenGVLab/V2PE.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>Flamingo: a Visual Language Model for Few-Shot Learning</b></i>, Alayrac et al., <a href="https://arxiv.org/abs/2204.14198" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2022.04-blue" alt="NeurIPS Badge"></a>
-    <a href="https://github.com/lucidrains/flamingo-pytorch" target="_blank">
-  		<img src="https://img.shields.io/github/stars/lucidrains/flamingo-pytorch.svg?style=social" alt="GitHub stars">
-    </a></li>
-</ul>
-
-<b>Audio-Visual Context Integration and Processing</b>
-
-<ul>
-<li><i><b>Aligned Better, Listen Better for Audio-Visual Large Language Models</b></i>, Guo et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ICLR-2025.01-blue" alt="ICLR Badge"></a>
-    </li>
-<li><i><b>AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue</b></i>, Chen et al., <a href="https://arxiv.org/abs/2403.16276" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge"></a>
-    </li>
-<li><i><b>SonicVisionLM: Playing Sound with Vision Language Models</b></i>, Xie et al., <a href="https://arxiv.org/abs/2401.04394" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024.01-blue" alt="CVPR Badge"></a>
-    <a href="https://github.com/Yusiissy/SonicVisionLM" target="_blank">
-  		<img src="https://img.shields.io/github/stars/Yusiissy/SonicVisionLM.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>SAVEn-Vid: Synergistic Audio-Visual Integration for Enhanced Understanding in Long Video Context</b></i>, Li et al., <a href="https://arxiv.org/abs/2411.16213" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.11-red" alt="arXiv Badge"></a>
-    <a href="https://github.com/LJungang/SAVEn-Vid" target="_blank">
-  		<img src="https://img.shields.io/github/stars/LJungang/SAVEn-Vid.svg?style=social" alt="GitHub stars">
-    </a></li>
-</ul>
-
-
-<b>Multi-Modal Prompt Engineering and Context Design</b>
-<ul>
-<li><i><b>CaMML: Context-Aware Multimodal Learner for Large Models</b></i>, Chen et al., <a href="https://arxiv.org/abs/2404.11406" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
-    </li>
-<li><i><b>Visual In-Context Learning for Large Vision-Language Models</b></i>, Zhou et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.08-blue" alt="ACL Badge"></a>
-    </li>
-<li><i><b>CAMA: Enhancing Multimodal In-Context Learning with Context-Aware Modulated Attention</b></i>, Li et al., <a href="https://arxiv.org/abs/2505.17097" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
-    </li>
-</ul>
-
-
-<b>CVPR 2024 Vision-Language Advances</b>
-<ul>
-<li><i><b>CogAgent: A Visual Language Model for GUI Agents</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a>
-    <a href="https://github.com/THUDM/CogAgent" target="_blank">
-  		<img src="https://img.shields.io/github/stars/THUDM/CogAgent.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>LISA: Reasoning Segmentation via Large Language Model</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2024-blue" alt="CVPR Badge"></a>
-    <a href="https://github.com/dvlab-research/LISA" target="_blank">
-  		<img src="https://img.shields.io/github/stars/dvlab-research/LISA.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>Reproducible scaling laws for contrastive language-image learning</b></i>, Various, <a href="#" target="_blank"><img src="https://img.shields.io/badge/CVPR-2023-blue" alt="CVPR Badge"></a>
-    <a href="https://github.com/LAION-AI/scaling-laws-openclip" target="_blank">
-  		<img src="https://img.shields.io/github/stars/LAION-AI/scaling-laws-openclip.svg?style=social" alt="GitHub stars">
-    </a></li>
-</ul>
-
-
-<b>Video and Temporal Understanding</b>
-<ul>
-<li><i><b>Video Understanding with Large Language Models: A Survey</b></i>, Various, <a href="https://arxiv.org/abs/2312.17432" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
-    <a href="https://github.com/yunlong10/Awesome-LLMs-for-Video-Understanding" target="_blank">
-  		<img src="https://img.shields.io/github/stars/yunlong10/Awesome-LLMs-for-Video-Understanding.svg?style=social" alt="GitHub stars">
-    </a></li>
-</ul>
-
 
 ### Structured Data Integration
 
