@@ -405,45 +405,7 @@ This Bayesian formulation enables:
 
 The evolution from prompt engineering to context engineering represents a fundamental maturation in AI system design. As influential figures like Andrej Karpathy, Tobi Lutke, and Simon Willison have argued, the term "prompt engineering" has been diluted to mean simply "typing things into a chatbot," failing to capture the complexity required for industrial-strength LLM applications.
 
-### 1. Human Intent Communication Challenges
-
-#### Ambiguous Human Expression
-- **Unclear Human Intent Expression**: Human intentions are often unclear, incomplete, or ambiguous when expressed in natural language
-- **AI's Incomplete Understanding of Human Intent**: AI systems struggle to fully comprehend complex human intentions, especially those involving implicit context or cultural nuances
-- **Overly Literal AI Interpretation**: AI systems often interpret human instructions too literally, missing the underlying intent or contextual meaning
-
-*[Placeholder: Academic papers on human-AI communication challenges, intent recognition, and natural language understanding limitations]*
-
-### 2. Complex Knowledge Requirements
-
-#### Beyond Model Capabilities
-Single models alone cannot solve complex problems that require:
-- **(1) Large-scale External Knowledge**: Vast amounts of external knowledge that exceed model capacity
-- **(2) Accurate External Knowledge**: Precise, up-to-date information that models may not possess
-- **(3) Novel External Knowledge**: Emerging knowledge that appears after model training
-
-#### Static Knowledge Limitations
-- **Static Knowledge Problem**: Pre-trained models contain static knowledge that becomes outdated
-- **Knowledge Cutoff**: Models cannot access information beyond their training data
-- **Domain-Specific Gaps**: Models lack specialized knowledge for specific industries or applications
-
-*[Placeholder: Papers on knowledge augmentation, external knowledge integration, and dynamic knowledge updating]*
-
-### 3. Reliability and Trustworthiness Issues
-
-#### Hallucination Problems
-- **AI Hallucination**: LLMs generate plausible but factually incorrect information when lacking proper context
-- **Confidence Calibration**: Models often appear confident even when generating false information
-- **Factual Inconsistency**: Responses may contradict known facts or previous statements
-
-#### Provenance and Traceability
-- **Lack of Provenance**: Absence of clear source attribution for generated information
-- **Transparency Gaps**: Inability to trace how conclusions were reached
-- **Accountability Issues**: Difficulty in verifying the reliability of AI-generated content
-
-*[Placeholder: Research on hallucination mitigation, source attribution, and AI transparency]*
-
-### 4. Enterprise and Production Necessities
+### 1. Enterprise and Production Necessities
 
 #### Context Failures Are the New Bottleneck
 Most failures in modern agentic systems are no longer attributable to core model reasoning capabilities but are instead **"context failures"**. The true engineering challenge lies not in what question to ask, but in ensuring the model has all necessary background, data, tools, and memory to answer meaningfully and reliably.
@@ -457,7 +419,33 @@ While prompt engineering suffices for simple, self-contained tasks, it breaks do
 
 Context Engineering provides the architectural foundation for managing state, integrating diverse data sources, and maintaining coherence across these demanding scenarios.
 
-### 5. Production-Grade Requirements
+### 2. The Limitations of Static Prompting
+
+#### From Strings to Systems
+Traditional prompting treats context as a static string, but enterprise applications require:
+- **Dynamic Information Assembly**: Context created on-the-fly, tailored to specific users and queries
+- **Multi-Source Integration**: Combining databases, APIs, documents, and real-time data
+- **State Management**: Maintaining conversation history, user preferences, and workflow status
+- **Tool Orchestration**: Coordinating external function calls and API interactions
+
+#### The "Movie Production" Analogy
+If prompt engineering is writing a single line of dialogue for an actor, context engineering is the entire process of building the set, designing lighting, providing detailed backstory, and directing the scene. The dialogue only achieves its intended impact because of the rich, carefully constructed environment surrounding it.
+
+### 3. Cognitive and Information Science Foundations
+
+#### Artificial Embodiment
+LLMs are essentially "brains in a vat" - powerful reasoning engines lacking connection to specific environments. Context Engineering provides:
+- **Synthetic Sensory Systems**: Retrieval mechanisms as artificial perception
+- **Proxy Embodiment**: Tool use as artificial action capabilities  
+- **Artificial Memory**: Structured information storage and retrieval
+
+#### Information Retrieval at Scale
+Context Engineering addresses the fundamental challenge of information retrieval where the "user" is not human but an AI agent. This requires:
+- **Semantic Understanding**: Bridging the gap between intent and expression
+- **Relevance Optimization**: Ranking and filtering vast knowledge bases
+- **Query Transformation**: Converting ambiguous requests into precise retrieval operations
+
+### 4. Production-Grade Requirements
 
 #### Reliability and Consistency
 Enterprise applications demand:
