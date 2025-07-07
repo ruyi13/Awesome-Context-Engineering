@@ -710,8 +710,26 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 ### 1. Retrieval-Augmented Generation (RAG)
 
-<b>Foundational RAG Systems</b>
+<b>survey</b>
+
 <ul>
+<li><i><b>Retrieval-Augmented Generation for Large Language Models: A Survey</b></i>, Yunfan Gao et al., <a href="https://arxiv.org/abs/2312.10997" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Tongji-KGLLM/RAG-Survey" target="_blank">
+        <img src="https://img.shields.io/github/stars/Tongji-KGLLM/RAG-Survey.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models</b></i>, Siyun Zhao et al., <a href="https://arxiv.org/abs/2501.13958" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.01-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/DEEP-PolyU/Awesome-GraphRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/DEEP-PolyU/Awesome-GraphRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely</b></i>, Siyun Zhao et al., <a href="https://arxiv.org/abs/2409.14924" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.09-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Evaluation of Retrieval-Augmented Generation: A Survey</b></i>, Hao Yu et al., <a href="https://arxiv.org/abs/2405.07437" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.07-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/YHPeter/Awesome-RAG-Evaluation" target="_blank">
+        <img src="https://img.shields.io/github/stars/YHPeter/Awesome-RAG-Evaluation.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</b></i>, Lewis et al., <a href="https://arxiv.org/abs/2005.11401" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.05-red" alt="arXiv Badge"></a>
     <a href="https://github.com/costadev00/RAG-paper-implementation-from-scratch" target="_blank">
   		<img src="https://img.shields.io/github/stars/costadev00/RAG-paper-implementation-from-scratch.svg?style=social" alt="GitHub stars">
@@ -725,15 +743,289 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 </ul>
 
 
-<b>Graph-Based RAG Systems</b>
+
+<b>Naive RAG</b>
+
 <ul>
+<li><i><b>Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models</b></i>, Xindi Wang et al., <a href="https://arxiv.org/abs/2402.02244" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>In-context Examples Selection for Machine Translation</b></i>, Sweta Agrawal et al., <a href="https://arxiv.org/abs/2212.02437" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>In Defense of RAG in the Era of Long-Context Language Models</b></i>, Tan Yu et al., <a href="https://arxiv.org/abs/2409.01666" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.09-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</b></i>, Patrick Lewis et al., <a href="https://arxiv.org/abs/2005.11401" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>LightRAG: Simple and Fast Retrieval-Augmented Generation</b></i>, Zirui Guo et al., <a href="https://arxiv.org/abs/2410.05779" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
+    <a href="https://anonymous.4open.science/r/LightRAG-2BEE" target="_blank">
+        <img src="https://img.shields.io/github/stars/anonymous/LightRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Generate rather than Retrieve: Large Language Models are Strong Context Generators</b></i>, Wenhao Yu et al., <a href="https://arxiv.org/abs/2209.10063" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.09-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/wyu97/GenRead" target="_blank">
+        <img src="https://img.shields.io/github/stars/wyu97/GenRead.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Large language models can be easily distracted by irrelevant context</b></i>, Freda Shi et al., <a href="https://arxiv.org/abs/2302.00093" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/google-research-datasets/GSM-IC" target="_blank">
+        <img src="https://img.shields.io/github/stars/google-research-datasets/GSM-IC.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Old IR Methods Meet RAG</b></i>, Oz Huly et al.
+</li>
+<li><i><b>Dense Passage Retrieval for Open-Domain Question Answering</b></i>, Vladimir Karpukhin et al., <a href="https://arxiv.org/abs/2004.04906" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/facebookresearch/DPR" target="_blank">
+        <img src="https://img.shields.io/github/stars/facebookresearch/DPR.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+</ul>
+
+
+
+<b>Advanced RAG</b>
+
+<ul>
+<li><i><b>Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity</b></i>, Soyeong Jeong et al., <a href="https://arxiv.org/abs/2403.14403" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/starsuzi/Adaptive-RAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/starsuzi/Adaptive-RAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Improving language models by retrieving from trillions of tokens</b></i>, Sebastian Borgeaud et al., <a href="https://arxiv.org/abs/2112.04426" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>FoRAG: Factuality-optimized Retrieval Augmented Generation for Web-enhanced Long-form Question Answering</b></i>, Tianchi Cai et al.
+</li>
+<li><i><b>IM-RAG: Multi-Round Retrieval-Augmented Generation Through Learning Inner Monologues</b></i>, Diji Yang et al., <a href="https://arxiv.org/abs/2405.13021" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation</b></i>, Chao Jin et al., <a href="https://arxiv.org/abs/2404.12457" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Corrective Retrieval Augmented Generation</b></i>, Shi-Qi Yan et al., <a href="https://arxiv.org/abs/2401.15884" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/HuskyInSalt/CRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/HuskyInSalt/CRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs</b></i>, Yue Yu et al., <a href="https://arxiv.org/abs/2407.02485" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models</b></i>, Fei Wang et al., <a href="https://arxiv.org/abs/2410.07176" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Learning to Filter Context for Retrieval-Augmented Generation</b></i>, Zhiruo Wang et al., <a href="https://arxiv.org/abs/2311.08377" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/zorazrw/filco" target="_blank">
+        <img src="https://img.shields.io/github/stars/zorazrw/filco.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Query Rewriting in Retrieval-Augmented Large Language Models</b></i>, Xinbei Ma et al., <a href="https://arxiv.org/abs/2305.14283" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/qijimrc/ROBUST" target="_blank">
+        <img src="https://img.shields.io/github/stars/qijimrc/ROBUST.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation</b></i>, Daixuan Cheng et al., <a href="https://arxiv.org/abs/2303.08518" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/MatthewKKai/SMRC2" target="_blank">
+        <img src="https://img.shields.io/github/stars/MatthewKKai/SMRC2.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Longllmlingua: Accelerating and enhancing llms in long context scenarios via prompt compression</b></i>, Huiqiang Jiang et al., <a href="https://arxiv.org/abs/2310.06839" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/microsoft/LLMLingua" target="_blank">
+        <img src="https://img.shields.io/github/stars/microsoft/LLMLingua.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Document-level event argument extraction by conditional generation</b></i>, Sha Li et al., <a href="https://arxiv.org/abs/2104.05919" target="_blank"><img src="https://img.shields.io/badge/arXiv-2021.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/raspberryice/gen-arg" target="_blank">
+        <img src="https://img.shields.io/github/stars/raspberryice/gen-arg.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Multi-sentence Argument Linking</b></i>, Seth Ebner et al., <a href="https://arxiv.org/abs/1911.03766" target="_blank"><img src="https://img.shields.io/badge/arXiv-2019.00-red" alt="arXiv Badge"></a>
+    <a href="https://nlp.jhu.edu/rams/" target="_blank">
+        <img src="https://img.shields.io/github/stars/nlp-jhu/RAMS.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Fine-tuning or retrieval? comparing knowledge injection in llms</b></i>, Oded Ovadia et al., <a href="https://arxiv.org/abs/2312.05934" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions</b></i>, Zhebin Zhang et al., <a href="https://arxiv.org/abs/2311.18397" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Retrieval Meets Long Context Large Language Models</b></i>, Peng Xu et al., <a href="https://arxiv.org/abs/2310.03025" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Dense x retrieval: What retrieval granularity should we use?</b></i>, Tong Chen et al., <a href="https://arxiv.org/abs/2312.06648" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/ct123098/factoid-wiki" target="_blank">
+        <img src="https://img.shields.io/github/stars/ct123098/factoid-wiki.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation</b></i>, Ruiyang Ren et al., <a href="https://arxiv.org/abs/2307.11019" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/RUCAIBox/LLM-Knowledge-Boundary" target="_blank">
+        <img src="https://img.shields.io/github/stars/RUCAIBox/LLM-Knowledge-Boundary.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>The Power of Noise: Redefining Retrieval for RAG Systems</b></i>, Florin Cuconasu et al., <a href="https://arxiv.org/abs/2401.14887" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/florin-git/The-Power-of-Noise" target="_blank">
+        <img src="https://img.shields.io/github/stars/florin-git/The-Power-of-Noise.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>RECITATION-AUGMENTED LANGUAGE MODELS</b></i>, Zhiqing Sun et al., <a href="https://arxiv.org/abs/2210.01296" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Edward-Sun/RECITE" target="_blank">
+        <img src="https://img.shields.io/github/stars/Edward-Sun/RECITE.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Robust Retrieval Augmented Generation for Zero-shot Slot Filling</b></i>, Michael Glass et al., <a href="https://arxiv.org/abs/2108.13934" target="_blank"><img src="https://img.shields.io/badge/arXiv-2021.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/IBM/kgi-slot-filling" target="_blank">
+        <img src="https://img.shields.io/github/stars/IBM/kgi-slot-filling.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>In-Context Retrieval-Augmented Language Models</b></i>, Ori Ram et al., <a href="https://arxiv.org/abs/2302.00083" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/AI21Labs/in-context-ralm" target="_blank">
+        <img src="https://img.shields.io/github/stars/AI21Labs/in-context-ralm.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Learning to Retrieve In-Context Examples for Large Language Models</b></i>, Liang Wang et al., <a href="https://arxiv.org/abs/2307.07164" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/microsoft/LMOps/tree/main/llm_retriever" target="_blank">
+        <img src="https://img.shields.io/github/stars/microsoft/LMOps.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+</ul>
+
+
+
+<b>Modular RAG</b>
+
+<ul>
+<li><i><b>FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research</b></i>, Jiajie Jin et al., <a href="https://arxiv.org/abs/2405.13576" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/RUC-NLPIR/FlashRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/RUC-NLPIR/FlashRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Multi-Head RAG: Solving Multi-Aspect Problems with LLMs</b></i>, Maciej Besta et al., <a href="https://arxiv.org/abs/2406.05085" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/spcl/MRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/spcl/MRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>StructRAG: Boosting Knowledge Intensive Reasoning of LLMs via Inference-time Hybrid Information Structurization</b></i>, Zhuoqun Li et al., <a href="https://arxiv.org/abs/2410.08815" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Li-Z-Q/StructRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/Li-Z-Q/StructRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>RAFT: Adapting Language Model to Domain Specific RAG</b></i>, Tianjun Zhang et al., <a href="https://arxiv.org/abs/2403.10131" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/ShishirPatil/gorilla" target="_blank">
+        <img src="https://img.shields.io/github/stars/ShishirPatil/gorilla.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Retrieval-Generation Alignment for End-to-End Task-Oriented Dialogue System</b></i>, Weizhou Shen et al., <a href="https://arxiv.org/abs/2310.08877" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/shenwzh3/MK-TOD" target="_blank">
+        <img src="https://img.shields.io/github/stars/shenwzh3/MK-TOD.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems</b></i>, Hongru Wang et al., <a href="https://arxiv.org/abs/2401.13256" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation</b></i>, Yubing Ren et al.
+</li>
+<li><i><b>RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING</b></i>, Xi Victoria Lin et al., <a href="https://arxiv.org/abs/2310.01352" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/facebookresearch/RA-DIT" target="_blank">
+        <img src="https://img.shields.io/github/stars/facebookresearch/RA-DIT.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Self-Knowledge Guided Retrieval Augmentation for Large Language Models</b></i>, Yile Wang et al., <a href="https://arxiv.org/abs/2310.05002" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/THUNLP-MT/SKR" target="_blank">
+        <img src="https://img.shields.io/github/stars/THUNLP-MT/SKR.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Prompt-Guided Retrieval Augmentation for Non-Knowledge-Intensive Tasks</b></i>, Zhicheng Guo et al., <a href="https://arxiv.org/abs/2305.17653" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/THUNLP-MT/PGRA" target="_blank">
+        <img src="https://img.shields.io/github/stars/THUNLP-MT/PGRA.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>REPLUG: Retrieval-Augmented Black-Box Language Models</b></i>, Weijia Shi et al., <a href="https://arxiv.org/abs/2301.12652" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Query Rewriting for Retrieval-Augmented Large Language Models</b></i>, Xinbei Ma et al., <a href="https://doi.org/10.18653/v1/2023.emnlp-main.323" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2023.00-blue" alt="DOI Badge"></a>
+    <a href="https://github.com/xbmxb/RAG-query-rewriting" target="_blank">
+        <img src="https://img.shields.io/github/stars/xbmxb/RAG-query-rewriting.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Lift Yourself Up: Retrieval-augmented Text Generation with Self-Memory</b></i>, Xin Cheng et al., <a href="https://arxiv.org/abs/2305.02437" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Hannibal046/SelfMemory" target="_blank">
+        <img src="https://img.shields.io/github/stars/Hannibal046/SelfMemory.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering</b></i>, Shamane Siriwardhana et al., <a href="https://arxiv.org/abs/2210.02627" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+</li>
+</ul>
+
+
+
+<b>Graph-Based RAG</b>
+
+<ul>
+<li><i><b>Don't Forget to Connect! Improving RAG with Graph-based Reranking</b></i>, Jialin Dong et al., <a href="https://arxiv.org/abs/2405.18414" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.05-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>From Local to Global: A Graph RAG Approach to Query-Focused Summarization</b></i>, Darren Edge et al., <a href="https://arxiv.org/abs/2404.16130" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>GRAG: Graph Retrieval-Augmented Generation</b></i>, Yuntong Hu et al., <a href="https://arxiv.org/abs/2405.16506" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/HuieL/GRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/HuieL/GRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Iseeq: Information seeking question generation using dynamic meta-information retrieval and knowledge graphs</b></i>, Manas Gaur et al., <a href="https://arxiv.org/abs/2112.07622" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.06-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/manasgaur/AAAI-22" target="_blank">
+        <img src="https://img.shields.io/github/stars/manasgaur/AAAI-22.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>G-retriever: Retrieval-augmented generation for textual graph understanding and question answering</b></i>, Xiaoxin He et al., <a href="https://arxiv.org/abs/2402.07630" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/XiaoxinHe/G-Retriever" target="_blank">
+        <img src="https://img.shields.io/github/stars/XiaoxinHe/G-Retriever.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Knowledge graph prompting for multi-document question answering</b></i>, Yu Wang et al., <a href="https://arxiv.org/abs/2402.08774" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/YuWVandy/KG-LLM-MDQA" target="_blank">
+        <img src="https://img.shields.io/github/stars/YuWVandy/KG-LLM-MDQA.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning</b></i>, Costas Mavromatis et al., <a href="https://arxiv.org/abs/2405.20139" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.05-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/cmavro/GNN-RAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/cmavro/GNN-RAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>LightPROF: A Lightweight Reasoning Framework for Large Language Model on Knowledge Graph</b></i>
+    <a href="https://github.com/tsinghua-fib-lab/ACL24-EconAgent" target="_blank">
+        <img src="https://img.shields.io/github/stars/tsinghua-fib-lab/ACL24-EconAgent.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Simple Is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation</b></i>
+    <a href="https://github.com/Graph-COM/SubgraphRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/Graph-COM/SubgraphRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Knowledge Graph-Guided Retrieval Augmented Generation</b></i>
+    <a href="https://github.com/nju-websoft/KG2RAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/nju-websoft/KG2RAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot</b></i>
+    <a href="https://github.com/SNOWTEAM2023/MedRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/SNOWTEAM2023/MedRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Mitigating Large Language Model Hallucinations via Autonomous Knowledge Graph-based Retrofitting</b></i>, KGR et al., <a href="https://arxiv.org/abs/2311.13314" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.11-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/mansicer/MAIC" target="_blank">
+        <img src="https://img.shields.io/github/stars/mansicer/MAIC.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>In-depth Analysis of Graph-based RAG in a Unified Framework</b></i><a href="https://arxiv.org/abs/2503.04338" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/JayLZhou/GraphRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/JayLZhou/GraphRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval</b></i>, Parth Sarthi et al., <a href="https://arxiv.org/abs/2401.18059" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/parthsarthi03/raptor" target="_blank">
+        <img src="https://img.shields.io/github/stars/parthsarthi03/raptor.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>TableRAG: Million-Token Table Understanding with Language Models</b></i>, Si-An Chen et al., <a href="https://arxiv.org/abs/2410.04739" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/google-research/google-research/tree/master/table_rag" target="_blank">
+        <img src="https://img.shields.io/github/stars/google-research/google-research.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation</b></i>, Lei Liang et al., <a href="https://arxiv.org/abs/2409.13731" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OpenSPG/KAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/OpenSPG/KAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 <li><i><b>GFM-RAG: Graph Foundation Model for Retrieval Augmented Generation</b></i>, Luo et al., <a href="https://arxiv.org/abs/2502.01113" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a>
     <a href="https://github.com/RManLuo/gfm-rag" target="_blank">
   		<img src="https://img.shields.io/github/stars/RManLuo/gfm-rag.svg?style=social" alt="GitHub stars">
-    </a></li>
-<li><i><b>GRAG: Graph Retrieval-Augmented Generation</b></i>, Hu et al., <a href="https://doi.org/10.18653/v1/2025.findings-naacl.232" target="_blank"><img src="https://img.shields.io/badge/NAACL-2025.04-blue" alt="NAACL Badge"></a>
-    <a href="https://github.com/HuieL/GRAG" target="_blank">
-  		<img src="https://img.shields.io/github/stars/HuieL/GRAG.svg?style=social" alt="GitHub stars">
     </a></li>
 <li><i><b>HybridRAG: A Hybrid Retrieval System for RAG Combining Vector and Graph Search</b></i>, Sarabesh, <a href="#" target="_blank"><img src="https://img.shields.io/badge/GitHub-2024.12-white" alt="GitHub Badge"></a>
     <a href="https://github.com/sarabesh/HybridRAG" target="_blank">
@@ -741,9 +1033,59 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 </ul>
 
-<b>Multi-Agent and Hierarchical RAG</b>
+
+
+<b>Agentic RAG</b>
 
 <ul>
+<li><i><b>From RAG to Memory: Non-Parametric Continual Learning for Large Language Models</b></i>, Bernal Jiménez Gutiérrez et al., <a href="https://arxiv.org/abs/2502.14802" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OSU-NLP-Group/HippoRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/OSU-NLP-Group/HippoRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models</b></i>, Bernal Jiménez Gutiérrez et al., <a href="https://arxiv.org/abs/2405.14924" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OSU-NLP-Group/HippoRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/OSU-NLP-Group/HippoRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models</b></i>, Shilong Li et al., <a href="https://arxiv.org/abs/2406.14550" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers</b></i>, Myeonghwa Lee et al., <a href="https://arxiv.org/abs/2406.12430" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/myeon9h/PlanRAG" target="_blank">
+        <img src="https://img.shields.io/github/stars/myeon9h/PlanRAG.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection</b></i>, Akari Asai et al., <a href="https://arxiv.org/abs/2402.08353" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/AkariAsai/self-rag" target="_blank">
+        <img src="https://img.shields.io/github/stars/AkariAsai/self-rag.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>DeepRAG: Thinking to Retrieve Step by Step for Large Language Models</b></i>, Xinyan Guan et al., <a href="https://arxiv.org/abs/2502.01142" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Paperqa: Retrieval-augmented generative agent for scientific research</b></i>, Jakub Lála et al., <a href="https://arxiv.org/abs/2312.07559" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogues</b></i>, Hongru Wang et al., <a href="https://arxiv.org/abs/2308.06181" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/hrwise-nlp/SAFARI" target="_blank">
+        <img src="https://img.shields.io/github/stars/hrwise-nlp/SAFARI.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>PRCA: Fitting Black-Box Large Language Models for Retrieval Question Answering via Pluggable Reward-Driven Contextual Adapter</b></i>, Haoyan Yang et al., <a href="https://arxiv.org/abs/2310.18347" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/xbmxb/RAG-query-rewriting" target="_blank">
+        <img src="https://img.shields.io/github/stars/xbmxb/RAG-query-rewriting.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION</b></i>, Akari Asai et al., <a href="https://arxiv.org/abs/2310.11511" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+    <a href="https://selfrag.github.io/" target="_blank">
+        <img src="https://img.shields.io/github/stars/selfrag/selfrag.github.io.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation</b></i>, Zihao Wang et al., <a href="https://arxiv.org/abs/2403.05313" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.00-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/CraftJarvis/RAT" target="_blank">
+        <img src="https://img.shields.io/github/stars/CraftJarvis/RAT.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Chain-of-verification reduces hallucination in large language models</b></i>, Shehzaad Dhuliawala et al., <a href="https://arxiv.org/abs/2309.11495" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.00-red" alt="arXiv Badge"></a>
+</li>
 <li><i><b>HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation</b></i>, Liu et al., <a href="https://arxiv.org/abs/2504.12330" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.04-red" alt="arXiv Badge"></a>
     <a href="https://github.com/ocean-luna/HMRAG" target="_blank">
   		<img src="https://img.shields.io/github/stars/ocean-luna/HMRAG.svg?style=social" alt="GitHub stars">
@@ -757,6 +1099,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
   		<img src="https://img.shields.io/github/stars/chenyiqun/MMOA-RAG.svg?style=social" alt="GitHub stars">
     </a></li>
 </ul>
+
 
 
 <b>Real-Time and Streaming RAG</b>
@@ -813,7 +1156,29 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 
 ### 3. Agent Communication
 
+<b>Survey</b>
+
+<ul>
+<li><i><b>A Survey of AI Agent Protocols</b></i>, Yingxuan Yang et al., <a href="https://arxiv.org/abs/2504.16736" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/zoe-yyx/Awesome-AIAgent-Protocol" target="_blank">
+        <img src="https://img.shields.io/github/stars/zoe-yyx/Awesome-AIAgent-Protocol.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>A Survey of Multi-Agent Deep Reinforcement Learning with Communication</b></i>, Changxi Zhu et al., <a href="https://arxiv.org/abs/2203.08975" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Beyond Self-Talk: A Communication-Centric Survey of LLM-Based Multi-Agent Systems</b></i>, Bingyu Yan et al., <a href="https://arxiv.org/abs/2502.14321" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Large Language Model based Multi-Agents: A Survey of Progress and Challenges</b></i>, Taicheng Guo et al., <a href="https://arxiv.org/abs/2402.01680" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers" target="_blank">
+        <img src="https://img.shields.io/github/stars/taichengguo/LLM_MultiAgents_Survey_Papers.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+</ul>
+
+
+
 <b>Agent Interoperability Protocols</b>
+
 <ul>
 <li><i><b>A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), and Agent-to-Agent Protocol (A2A)</b></i>, Zhang et al., <a href="https://arxiv.org/abs/2505.02279" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
     </li>
@@ -823,10 +1188,36 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/LXXXXR/CACOM" target="_blank">
   		<img src="https://img.shields.io/github/stars/LXXXXR/CACOM.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP)</b></i>, Abul Ehtesham et al., <a href="https://arxiv.org/abs/2505.02279" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Agent Capability Negotiation and Binding Protocol (ACNBP)</b></i>, Ken Huang et al., <a href="https://arxiv.org/abs/2506.13590" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>A Scalable Communication Protocol for Networks of Large Language Models</b></i>, Samuele Marro et al., <a href="https://arxiv.org/abs/2410.11905" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/agora-protocol/paper-demo" target="_blank">
+        <img src="https://img.shields.io/github/stars/agora-protocol/paper-demo.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Model Context Protocol (MCP)</b></i>
+    <a href="https://github.com/anthropics/mcp" target="_blank">
+        <img src="https://img.shields.io/github/stars/anthropics/mcp.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Agent2Agent (A2A) Protocol</b></i>
+    <a href="https://google.github.io/A2A/" target="_blank">
+        <img src="https://img.shields.io/github/stars/google/A2A.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Agent Network Protocol (ANP)</b></i>
+    <a href="https://github.com/agent-network-protocol/AgentNetworkProtocol" target="_blank">
+        <img src="https://img.shields.io/github/stars/agent-network-protocol/AgentNetworkProtocol.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 </ul>
 
 
+
 <b>Structured Communication Frameworks</b>
+
 <ul>
 <li><i><b>Learning Structured Communication for Multi-Agent Reinforcement Learning</b></i>, Wang et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/AAMAS-2023.05-blue" alt="AAMAS Badge"></a>
     <a href="https://github.com/bellmanequation/LSC" target="_blank">
@@ -836,11 +1227,81 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </li>
 <li><i><b>Task-Agnostic Contrastive Pre-Training for Inter-Agent Communication</b></i>, Sun et al., <a href="https://arxiv.org/abs/2501.02174" target="_blank"><img src="https://img.shields.io/badge/AAMAS-2025.05-blue" alt="AAMAS Badge"></a>
     </li>
+<li><i><b>AC2C: Adaptively Controlled Two-Hop Communication for Multi-Agent Reinforcement Learning</b></i>, Xuefeng Wang et al., <a href="https://arxiv.org/abs/2302.12515" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society</b></i>, Guohao Li et al., <a href="https://arxiv.org/abs/2303.17760" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.11-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/camel-ai/camel" target="_blank">
+        <img src="https://img.shields.io/github/stars/camel-ai/camel.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Context-aware Communication for Multi-agent Reinforcement Learning (CACOM)</b></i>, Xinran Li et al., <a href="https://arxiv.org/abs/2312.15600" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.07-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/LXXXXR/CACOM" target="_blank">
+        <img src="https://img.shields.io/github/stars/LXXXXR/CACOM.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Task-Agnostic Contrastive Pre-Training for Inter-Agent Communication</b></i>, Peihong Yu et al.
+</li>
+<li><i><b>Expressive Multi-Agent Communication via Identity-Aware Learning</b></i>, Wei Du et al., <a href="https://arxiv.org/abs/2401.07872" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution</b></i>, Wei Tao et al., <a href="https://arxiv.org/abs/2403.17927" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.06-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>AutoAgents: A Framework for Automatic Agent Generation</b></i>, Guangyao Chen et al., <a href="https://arxiv.org/abs/2309.17288" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Link-AGI/AutoAgents" target="_blank">
+        <img src="https://img.shields.io/github/stars/Link-AGI/AutoAgents.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>MDTeamGPT: A Self-Evolving LLM-based Multi-Agent Framework for Multi-Disciplinary Team Medical Consultation</b></i>, Kai Chen et al., <a href="https://arxiv.org/abs/2503.13856" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a>
+    <a href="https://kaichennj.github.io/MDTeamGPT" target="_blank">
+        <img src="https://img.shields.io/github/stars/kaichennj/MDTeamGPT.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
 </ul>
 
 
+
 <b>LLM-Enhanced Agent Communication</b>
+
 <ul>
+<li><i><b>ProAgent: Building Proactive Cooperative AI with Large Language Models</b></i>, Ceyao Zhang et al., <a href="https://arxiv.org/abs/2308.11339" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
+    <a href="https://pku-proagent.github.io" target="_blank">
+        <img src="https://img.shields.io/github/stars/pku-proagent/proagent.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Improving Factuality and Reasoning in Language Models through Multiagent Debate</b></i>, Yilun Du et al., <a href="https://arxiv.org/abs/2305.14325" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.05-red" alt="arXiv Badge"></a>
+    <a href="https://composable-models.github.io/llm_debate/" target="_blank">
+        <img src="https://img.shields.io/github/stars/composable-models/llm_debate.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>ChatDev: Communicative Agents for Software Development</b></i>, Chen Qian et al., <a href="https://arxiv.org/abs/2307.07924" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.06-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/OpenBMB/ChatDev" target="_blank">
+        <img src="https://img.shields.io/github/stars/OpenBMB/ChatDev.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Multi-Agent Incentive Communication via Decentralized Teammate Modeling</b></i>, Nian Li et al., <a href="https://arxiv.org/abs/2310.10436" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/tsinghua-fib-lab/ACL24-EconAgent" target="_blank">
+        <img src="https://img.shields.io/github/stars/tsinghua-fib-lab/ACL24-EconAgent.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration</b></i>, Bo Pan et al., <a href="https://arxiv.org/abs/2404.11943" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/AgentCoord/AgentCoord" target="_blank">
+        <img src="https://img.shields.io/github/stars/AgentCoord/AgentCoord.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Simulating Opinion Dynamics with Networks of LLM-based Agents</b></i>, Yun-Shiuan Chuang et al., <a href="https://arxiv.org/abs/2311.09618" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/yunshiuan/llm-agent-opinion-dynamics" target="_blank">
+        <img src="https://img.shields.io/github/stars/yunshiuan/llm-agent-opinion-dynamics.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework</b></i>, Sirui Hong et al., <a href="https://arxiv.org/abs/2308.00352" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.11-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/geekan/MetaGPT" target="_blank">
+        <img src="https://img.shields.io/github/stars/geekan/MetaGPT.svg?style=social" alt="GitHub stars">
+    </a>
+</li>
+<li><i><b>Chain of Agents: Large Language Models Collaborating on Long-Context Tasks</b></i>, Yusen Zhang et al., <a href="https://arxiv.org/abs/2406.02818" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.06-red" alt="arXiv Badge"></a>
+</li>
+<li><i><b>Multi-Agent Incentive Communication via Decentralized Teammate Modeling</b></i>, Lei Yuan et al.<a href="https://doi.org/10.1609/aaai.v36i9.21179" target="_blank">
+        <img src="https://img.shields.io/badge/AAAI-2022.06-blue" alt="DOI Badge">
+</li>
 <li><i><b>ProAgent: Building Proactive Cooperative Agents with Large Language Models</b></i>, Zhang et al., <a href="https://doi.org/10.1609/aaai.v38i16.29710" target="_blank"><img src="https://img.shields.io/badge/AAAI-2024.03-blue" alt="AAAI Badge"></a>
     <a href="https://github.com/PKU-Alignment/ProAgent" target="_blank">
   		<img src="https://img.shields.io/github/stars/PKU-Alignment/ProAgent.svg?style=social" alt="GitHub stars">
@@ -848,6 +1309,7 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 <li><i><b>Model Context Protocol (MCP)</b></i>, Anthropic, <a href="https://github.com/modelcontextprotocol" target="_blank"><img src="https://img.shields.io/badge/GitHub-2024-white" alt="GitHub Badge"></a>
     </li>
 </ul>
+
 
 
 ### 4. Tool Use and Function Calling
