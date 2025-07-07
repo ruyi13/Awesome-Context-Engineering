@@ -94,15 +94,145 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 <b>Memory Systems and Context Persistence</b>
 
+<b>Survey</b>
 <ul>
 <li><i><b>A Survey on the Memory Mechanism of Large Language Model based Agents</b></i>, Zhang et al., <a href="https://arxiv.org/abs/2404.13501" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
     <a href="https://github.com/nuster1128/LLM_Agent_Memory_Survey" target="_blank">
-  		<img src="https://img.shields.io/github/stars/nuster1128/LLM_Agent_Memory_Survey" alt="GitHub stars">
+  		<img src="https://img.shields.io/github/stars/nuster1128/LLM_Agent_Memory_Survey.svg?style=social" alt="GitHub stars">
     </a></li>
-<li><i><b>From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs</b></i>, Wu et al., <a href="https://arxiv.org/abs/2504.15965" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.04-red" alt="arXiv Badge"></a>
+<li><i><b>Survey on Memory-Augmented Neural Networks: Cognitive Insights to AI Applications</b></i>, Khosla et al., <a href="https://arxiv.org/abs/2312.06141" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs</b></i>, Wu et al., <a href="https://arxiv.org/abs/2504.15965" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Survey on Evaluation of LLM-based Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2503.16416" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.03-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>A Survey of Personalized Large Language Models: Progress and Future Directions</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2502.11528" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Agentic Retrieval-Augmented Generation: A Survey</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2501.09136" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.01-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Retrieval-Augmented Generation with Graphs (GraphRAG)</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2501.00309" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/Graph-RAG/GraphRAG/" target="_blank">
+  		<img src="https://img.shields.io/github/stars/Graph-RAG/GraphRAG.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+
+<b>Benchmarks</b>
+<ul>
+<li><i><b>Evaluating Very Long-Term Conversational Memory of LLM Agents (LOCOMO)</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2402.17753" target="_blank"><img src="https://img.shields.io/badge/ACL-2024.02-blue" alt="ACL Badge"></a>
+    <a href="https://snap-research.github.io/locomo/" target="_blank">
+  		<img src="https://img.shields.io/github/stars/snap-research/locomo.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Episodic Memories Generation and Evaluation Benchmark for Large Language Models</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2501.13121" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.01-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>On the Structural Memory of LLM Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2412.15266" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.12-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering</b></i>, Yang et al., <a href="https://arxiv.org/abs/1809.09600" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2018.09-blue" alt="EMNLP Badge"></a>
+    <a href="https://hotpotqa.github.io/" target="_blank">
+  		<img src="https://img.shields.io/github/stars/hotpotqa/hotpot.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+<b>Neural Memory Architectures</b>
+
+<ul>
+<li><i><b>Neural Turing Machines</b></i>, Graves et al., <a href="https://arxiv.org/abs/1410.5401" target="_blank"><img src="https://img.shields.io/badge/arXiv-2014.10-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Differentiable Neural Computers</b></i>, Graves et al., <a href="https://arxiv.org/abs/1610.06258" target="_blank"><img src="https://img.shields.io/badge/arXiv-2016.10-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/google-deepmind/dnc" target="_blank">
+  		<img src="https://img.shields.io/github/stars/google-deepmind/dnc.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>A Brain-inspired Memory Transformation based Differentiable Neural Computer</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2301.02809" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.01-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Differentiable Neural Computers with Memory Demon</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2211.02987" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.11-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+<b>Memory-Augmented Transformers</b>
+
+<ul>
+<li><i><b>Memorizing Transformers</b></i>, Wu et al., <a href="https://arxiv.org/abs/2203.08913" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.03-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Recurrent Memory Transformer</b></i>, Bulatov et al., <a href="https://arxiv.org/abs/2207.06881" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2022.07-blue" alt="NeurIPS Badge"></a>
+    <a href="https://github.com/booydar/recurrent-memory-transformer" target="_blank">
+  		<img src="https://img.shields.io/github/stars/booydar/recurrent-memory-transformer.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention</b></i>, Munkhdalai et al., <a href="https://arxiv.org/abs/2404.07143" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Memformer: A Memory-Augmented Transformer for Sequence Modeling</b></i>, Wu et al., <a href="https://arxiv.org/abs/2010.06891" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.10-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Token Turing Machines</b></i>, Ryoo et al., <a href="https://arxiv.org/abs/2211.09119" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.11-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>TransformerFAM: Feedback Attention is Working Memory</b></i>, Irie et al., <a href="https://arxiv.org/abs/2404.09173" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
     </li>
 </ul>
 
+<b>Production Memory Systems</b>
+<ul>
+<li><i><b>MemGPT: Towards LLMs as Operating Systems</b></i>, Packer et al., <a href="https://arxiv.org/abs/2310.08560" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
+    <a href="https://research.memgpt.ai" target="_blank">
+  		<img src="https://img.shields.io/github/stars/letta-ai/letta.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>MemoryBank: Enhancing Large Language Models with Long-Term Memory</b></i>, Zhong et al., <a href="https://arxiv.org/abs/2305.10250" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.05-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/zhongwanjun/memorybank-siliconfriend" target="_blank">
+  		<img src="https://img.shields.io/github/stars/zhongwanjun/memorybank-siliconfriend.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>MEM0: Building Production-Ready AI Agents with Scalable Long-Term Memory</b></i>, Taranjeet et al., <a href="https://arxiv.org/abs/2504.19413" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.04-red" alt="arXiv Badge"></a>
+    <a href="https://mem0.ai/research" target="_blank">
+  		<img src="https://img.shields.io/github/stars/mem0ai/mem0.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2506.15841" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.06-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/mannaandpoem/openmanus" target="_blank">
+  		<img src="https://img.shields.io/github/stars/mannaandpoem/openmanus.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>A-MEM: Agentic Memory for LLM Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2502.12110" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/agiresearch/A-mem" target="_blank">
+  		<img src="https://img.shields.io/github/stars/agiresearch/A-mem.svg?style=social" alt="GitHub stars">
+    </a></li>
+</ul>
+<b>Graph-based Memory Systems</b>
+
+<ul>
+<li><i><b>arigraph: learning knowledge graph world models with episodic memory for llm agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2407.04363" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.07-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Zep: A Temporal Knowledge Graph Architecture for Agent Memory</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2501.13956" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.01-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/getzep/graphiti" target="_blank">
+  		<img src="https://img.shields.io/github/stars/getzep/graphiti.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2402.11163" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2406.14550" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.06-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>From Local to Global: A GraphRAG Approach to Query-Focused Summarization</b></i>, Edge et al., <a href="https://arxiv.org/abs/2404.16130" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/microsoft/graphrag" target="_blank">
+  		<img src="https://img.shields.io/github/stars/microsoft/graphrag.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Knowledge Graph-Guided Retrieval Augmented Generation</b></i>, Zhu et al., <a href="https://arxiv.org/abs/2502.06864" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.02-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+<b>Episodic and Working Memory</b>
+
+<ul>
+<li><i><b>Larimar: Large Language Models with Episodic Memory Control</b></i>, Goyal et al., <a href="https://arxiv.org/abs/2403.11901" target="_blank"><img src="https://img.shields.io/badge/ICML-2024.03-blue" alt="ICML Badge"></a>
+    </li>
+<li><i><b>EM-LLM: Human-like Episodic Memory for Infinite Context LLMs</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2407.09450" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024.07-blue" alt="ICLR Badge"></a>
+    <a href="https://github.com/em-llm/EM-LLM-model" target="_blank">
+  		<img src="https://img.shields.io/github/stars/em-llm/EM-LLM-model.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Large Language Models with Controllable Working Memory</b></i>, Goyal et al., <a href="https://arxiv.org/abs/2211.05110" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.11-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Empowering Working Memory for Large Language Model Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2312.17259" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+<b>Conversational Memory</b>
+
+<ul>
+<li><i><b>MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2308.08239" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.08-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2311.08719" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.11-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Generative Agents: Interactive Simulacra of Human Behavior</b></i>, Park et al., <a href="https://arxiv.org/abs/2304.03442" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Self-Controlled Memory Framework for Large Language Models</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2304.13343" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
 <b>Foundational Survey Papers from Major Venues</b>
 
 <ul>
