@@ -220,6 +220,8 @@ This repository serves as a comprehensive survey of context engineering techniqu
     <a href="https://github.com/agiresearch/A-mem" target="_blank">
   		<img src="https://img.shields.io/github/stars/agiresearch/A-mem.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2507.02259" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.07-red" alt="arXiv Badge"></a>
+    </li>
 </ul>
 <b>Graph-based Memory Systems</b>
 
@@ -286,7 +288,7 @@ This repository serves as a comprehensive survey of context engineering techniqu
     <a href="https://github.com/p-lambda/incontext-learning" target="_blank">
   		<img src="https://img.shields.io/github/stars/p-lambda/incontext-learning.svg?style=social" alt="GitHub stars">
     </a></li>
-<li><i><b>Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?</b></i>, Min et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2022-blue" alt="EMNLP Badge"></a>
+<li><i><b>Rethinking the Role of Demonstrations: What Makes In-context Learning Work?</b></i>, Min et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/EMNLP-2022-blue" alt="EMNLP Badge"></a>
     <a href="https://github.com/Alrope123/rethinking-demonstrations" target="_blank">
   		<img src="https://img.shields.io/github/stars/Alrope123/rethinking-demonstrations.svg?style=social" alt="GitHub stars">
     </a></li>
@@ -421,7 +423,7 @@ This Bayesian formulation enables:
 - [Context Engineering is Runtime of AI Agents | by Bijit Ghosh | Jun, 2025 | Medium](https://medium.com/@bijit211987/context-engineering-is-runtime-of-ai-agents-411c9b2ef1cb)
 - [Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)
 - [Context Engineering for Agents](https://rlancemartin.github.io/2025/06/23/context_engineering/)
-- [Cognition | Don’t Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
+- [Cognition | Don't Build Multi-Agents](https://cognition.ai/blog/dont-build-multi-agents)
 - [从Prompt Engineering到Context Engineering - 53AI-AI知识库|大模型知识库|大模型训练|智能体开发](https://www.53ai.com/news/tishicikuangjia/2025062727685.html)
 
 ### Social Media & Talks
@@ -1163,6 +1165,10 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/wangyu-ustc/MemoryLLM" target="_blank">
   		<img src="https://img.shields.io/github/stars/wangyu-ustc/MemoryLLM.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2401.02669" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.01-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Memory-Augmented Generative Adversarial Transformers</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2402.19218" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.02-red" alt="arXiv Badge"></a>
+    </li>
 </ul>
 
 
@@ -1185,6 +1191,70 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </li>
 <li><i><b>Episodic Memory in AI Agents Poses Risks that Should Be Studied and Mitigated</b></i>, Christiano et al., <a href="https://arxiv.org/abs/2401.11739" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.10-red" alt="arXiv Badge"></a>
     </li>
+<li><i><b>Larimar: Large Language Models with Episodic Memory Control</b></i>, Goyal et al., <a href="https://arxiv.org/abs/2403.11901" target="_blank"><img src="https://img.shields.io/badge/ICML-2024.03-blue" alt="ICML Badge"></a>
+    </li>
+<li><i><b>EM-LLM: Human-like Episodic Memory for Infinite Context LLMs</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2407.09450" target="_blank"><img src="https://img.shields.io/badge/ICLR-2024.07-blue" alt="ICLR Badge"></a>
+    <a href="https://github.com/em-llm/EM-LLM-model" target="_blank">
+  		<img src="https://img.shields.io/github/stars/em-llm/EM-LLM-model.svg?style=social" alt="GitHub stars">
+    </a></li>
+<li><i><b>Large Language Models with Controllable Working Memory</b></i>, Goyal et al., <a href="https://arxiv.org/abs/2211.05110" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.11-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Empowering Working Memory for Large Language Model Agents</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2312.17259" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.12-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+<b>Continual Learning and Memory Consolidation</b>
+<ul>
+<li><i><b>Prediction Error-Driven Memory Consolidation for Continual Learning</b></i>, Anonymous et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2020.11-blue" alt="NeurIPS Badge"></a>
+    </li>
+<li><i><b>Overcoming Catastrophic Forgetting in Continual Learning by Exploring Eigenvalues of Hessian Matrix</b></i>, Anonymous et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023-blue" alt="NeurIPS Badge"></a>
+    </li>
+<li><i><b>Probabilistic Metaplasticity for Continual Learning with Memristors in Spiking Networks</b></i>, Anonymous et al., <a href="#" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.11-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+<b>Conversational Memory</b>
+<ul>
+<li><i><b>MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2308.08239" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.08-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2311.08719" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.11-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Generative Agents: Interactive Simulacra of Human Behavior</b></i>, Park et al., <a href="https://arxiv.org/abs/2304.03442" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Self-Controlled Memory Framework for Large Language Models</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2304.13343" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+<b>Personalization and Memory</b>
+<ul>
+<li><i><b>Personalized LLM Response Generation with Parameterized User Memory Injection</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2404.03565" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+<b>Safety and Alignment with Memory</b>
+<ul>
+<li><i><b>Constitutional AI: Harmlessness from AI Feedback</b></i>, Bai et al., <a href="https://arxiv.org/abs/2212.08073" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.12-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Improving alignment of dialogue agents via targeted human judgements (Sparrow)</b></i>, Glaese et al., <a href="https://arxiv.org/abs/2209.14375" target="_blank"><img src="https://img.shields.io/badge/arXiv-2022.09-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+<b>Tool Integration and Memory</b>
+<ul>
+<li><i><b>WebGPT: Browser-assisted question-answering with human feedback</b></i>, Nakano et al., <a href="https://arxiv.org/abs/2112.09332" target="_blank"><img src="https://img.shields.io/badge/arXiv-2021.12-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</b></i>, Qin et al., <a href="https://arxiv.org/abs/2307.16789" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.07-red" alt="arXiv Badge"></a>
+    </li>
+</ul>
+
+<b>Learning and Reflection</b>
+<ul>
+<li><i><b>Language Models are Few-Shot Learners (GPT-3)</b></i>, Brown et al., <a href="https://arxiv.org/abs/2005.14165" target="_blank"><img src="https://img.shields.io/badge/arXiv-2020.05-red" alt="arXiv Badge"></a>
+    </li>
+<li><i><b>Reflexion: Language Agents with Verbal Reinforcement Learning</b></i>, Shinn et al., <a href="https://arxiv.org/abs/2303.11366" target="_blank"><img src="https://img.shields.io/badge/NeurIPS-2023.03-blue" alt="NeurIPS Badge"></a>
+    <a href="https://github.com/noahshinn/reflexion" target="_blank">
+  		<img src="https://img.shields.io/github/stars/noahshinn/reflexion.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 
