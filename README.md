@@ -802,6 +802,10 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/SihengLi99/SEALONG" target="_blank">
   		<img src="https://img.shields.io/github/stars/SihengLi99/SEALONG.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering</b></i>, Oren et al., <a href="https://arxiv.org/abs/2401.08500" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.04-red" alt="arXiv Badge"></a> <a href="https://github.com/Codium-ai/alphacodium" target="_blank"><img src="https://img.shields.io/github/stars/Codium-ai/alphacodium.svg?style=social" alt="GitHub stars"></a>
+    </li>
+<li><i><b>Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models</b></i>, Zhou et al., <a href="https://arxiv.org/abs/2310.04406" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.10-red" alt="arXiv Badge"></a> <a href="https://github.com/andyz245/Language-Agent-Tree-Search" target="_blank"><img src="https://img.shields.io/github/stars/andyz245/Language-Agent-Tree-Search.svg?style=social" alt="GitHub stars"></a>
+    </li>
 </ul>
 
 
@@ -814,6 +818,8 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
   		<img src="https://img.shields.io/github/stars/beeevita/EvoPrompt.svg?style=social" alt="GitHub stars">
     </a></li>
 <li><i><b>AutoPDL: Automatic Prompt Optimization for LLM Agents</b></i>, Spiess et al., <a href="https://arxiv.org/abs/2504.04365" target="_blank"><img src="https://img.shields.io/badge/AutoML-2025.04-orange" alt="AutoML Badge"></a>
+    </li>
+<li><i><b>Agent-Pro: Learning to Evolve Coder Agents via Proposal-based Programming</b></i>, Zhang et al., <a href="https://arxiv.org/abs/2402.17574" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.05-red" alt="arXiv Badge"></a>
     </li>
 </ul>
 
@@ -1219,6 +1225,8 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/chenyiqun/MMOA-RAG" target="_blank">
   		<img src="https://img.shields.io/github/stars/chenyiqun/MMOA-RAG.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Search-in-the-Chain: Towards Accurate, Credible, and Up-to-Date Large Language Models</b></i>, Menick et al., <a href="https://arxiv.org/abs/2304.14732" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.04-red" alt="arXiv Badge"></a>
+    </li>
 </ul>
 
 
@@ -1444,6 +1452,8 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
         <img src="https://img.shields.io/github/stars/kaichennj/MDTeamGPT.svg?style=social" alt="GitHub stars">
     </a>
 </li>
+<li><i><b>AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation</b></i>, Wu et al., <a href="https://arxiv.org/abs/2308.08155" target="_blank"><img src="https://img.shields.io/badge/arXiv-2023.08-red" alt="arXiv Badge"></a> <a href="https://github.com/microsoft/autogen" target="_blank"><img src="https://img.shields.io/github/stars/microsoft/autogen.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 
 
@@ -1532,6 +1542,8 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     </a></li>
 <li><i><b>Enhancing Function-Calling Capabilities in LLMs: Strategies for Prompt Formats, Data Integration, and Multilingual Translation</b></i>, Chen et al., <a href="https://arxiv.org/abs/2412.01130" target="_blank"><img src="https://img.shields.io/badge/NAACL-2025.04-blue" alt="NAACL Badge"></a>
     </li>
+<li><i><b>A Real-World WebAgent for Complex Web Tasks</b></i>, Zhai et al., <a href="https://arxiv.org/html/2307.12856v4" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.03-red" alt="arXiv Badge">
+    </a></li>
 </ul>
 
 
@@ -1609,6 +1621,8 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
     <a href="https://github.com/OpenBMB/InfiniteBench" target="_blank">
   		<img src="https://img.shields.io/github/stars/OpenBMB/InfiniteBench.svg?style=social" alt="GitHub stars">
     </a></li>
+<li><i><b>Agent-Pro: Learning to Evolve Coder Agents via Proposal-based Programming</b></i>, Zhang et al., <a href="https://arxiv.org/abs/2402.17574" target="_blank"><img src="https://img.shields.io/badge/arXiv-2024.05-red" alt="arXiv Badge">
+    </a></li>
 </ul>
 
 
@@ -1644,6 +1658,8 @@ This discipline is foundational for unlocking the full potential of LLMs in prod
 <li><i><b>Automating Psychological Hypothesis Generation with AI</b></i>, Johnson et al., <a href="https://doi.org/10.1038/s41599-024-03407-5" target="_blank"><img src="https://img.shields.io/badge/Nature-2024.07-blue" alt="Nature Badge"></a>
     </li>
 <li><i><b>Can Large Language Models Replace Humans in Systematic Reviews?</b></i>, Khraisha et al., <a href="https://doi.org/10.1002/jrsm.1715" target="_blank"><img src="https://img.shields.io/badge/Research_Synthesis-2024-blue" alt="Research Synthesis Badge"></a>
+    </li>
+<li><i><b>Solving Olympiad Geometry without Human Demonstrations</b></i>, Trinh et al., <a href="https://www.nature.com/articles/s41586-023-06747-5" target="_blank"><img src="https://img.shields.io/badge/Nature-2024.01-blue" alt="Nature Badge"></a>
     </li>
 </ul>
 
