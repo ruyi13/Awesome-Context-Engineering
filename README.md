@@ -21,6 +21,7 @@ This project is **ongoing** and continuously evolving. While we strive for accur
 
 ## 📰 News
 
+- **[2025.07.17]** Our paper is coming soon. Stay tuned.
 - **[2025.07.03]** Repository initialized with comprehensive outline
 - **[2025.07.03]** Survey structure established following modern context engineering paradigms
 
