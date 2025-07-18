@@ -7,9 +7,18 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Paper](https://img.shields.io/badge/Paper-Coming%20Soon-orange.svg)](https://github.com/your-repo/awesome-context-engineering)
+[![Paper](https://img.shields.io/badge/Paper-Coming%20Soon-orange.svg)](https://arxiv.org/abs/2507.13334)
 
-> 📄 **Our comprehensive survey paper on Context Engineering is coming soon!** Stay tuned for the latest academic insights and theoretical foundations.
+---
+
+## 📄 Research Paper
+Our paper is now published!  
+**Title**: A Survey of Context Engineering for Large Language Models
+**Links**:
+- [arXiv Preprint](https://arxiv.org/abs/2507.13334)
+- [Hugging Face Discussion](https://huggingface.co/papers/2507.13334)
+
+---
 
 A comprehensive survey and collection of resources on **Context Engineering** - the evolution from static prompting to dynamic, context-aware AI systems.
 
@@ -21,7 +30,7 @@ This project is **ongoing** and continuously evolving. While we strive for accur
 
 ## 📰 News
 
-- **[2025.07.17]** Our paper is coming soon. Stay tuned.
+- **[2025.07.17]** **New!** Our paper is published: [arXiv](https://arxiv.org/abs/2507.13334) | [HF](https://huggingface.co/papers/2507.13334)
 - **[2025.07.03]** Repository initialized with comprehensive outline
 - **[2025.07.03]** Survey structure established following modern context engineering paradigms
 
@@ -1765,12 +1774,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this survey helpful in your research, please consider citing:
 
 ```bibtex
-@misc{awesome-context-engineering2025,
-  title={Awesome Context Engineering},
-  author={UCAS Context Engineering Survey Team},
-  year={2025},
-  howpublished={\url{https://github.com/Meirtz/Awesome-Context-Engineering}},
-  note={GitHub repository}
+@misc{mei2025surveycontextengineeringlarge,
+      title={A Survey of Context Engineering for Large Language Models}, 
+      author={Lingrui Mei and Jiayu Yao and Yuyao Ge and Yiwei Wang and Baolong Bi and Yujun Cai and Jiazhi Liu and Mingyu Li and Zhong-Zhi Li and Duzhen Zhang and Chenlin Zhou and Jiayi Mao and Tianze Xia and Jiafeng Guo and Shenghua Liu},
+      year={2025},
+      eprint={2507.13334},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.13334}, 
 }
 ```
 
