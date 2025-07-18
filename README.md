@@ -17,7 +17,7 @@ A comprehensive survey and collection of resources on **Context Engineering** - 
 
 ## 📰 News
 
-- **[2025.07.17]** Our paper is now published! Check out ["A Survey of Context Engineering for Large Language Models"](https://arxiv.org/abs/2507.13334) on [arXiv](https://arxiv.org/abs/2507.13334) and [Hugging Face Papers](https://huggingface.co/papers/2507.13334)
+- **[2025.07.17]** 🔥🔥 Our paper is now published! Check out ["A Survey of Context Engineering for Large Language Models"](https://arxiv.org/abs/2507.13334) on [arXiv](https://arxiv.org/abs/2507.13334) and [Hugging Face Papers](https://huggingface.co/papers/2507.13334)
 - **[2025.07.03]** Repository initialized with comprehensive outline
 - **[2025.07.03]** Survey structure established following modern context engineering paradigms
 
