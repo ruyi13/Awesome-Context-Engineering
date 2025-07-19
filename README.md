@@ -1761,12 +1761,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this survey helpful in your research, please consider citing:
 
 ```bibtex
-@misc{awesome-context-engineering2025,
-  title={Awesome Context Engineering},
-  author={UCAS Context Engineering Survey Team},
-  year={2025},
-  howpublished={\url{https://github.com/Meirtz/Awesome-Context-Engineering}},
-  note={GitHub repository}
+@misc{mei2025surveycontextengineeringlarge,
+      title={A Survey of Context Engineering for Large Language Models}, 
+      author={Lingrui Mei and Jiayu Yao and Yuyao Ge and Yiwei Wang and Baolong Bi and Yujun Cai and Jiazhi Liu and Mingyu Li and Zhong-Zhi Li and Duzhen Zhang and Chenlin Zhou and Jiayi Mao and Tianze Xia and Jiafeng Guo and Shenghua Liu},
+      year={2025},
+      eprint={2507.13334},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.13334}, 
 }
 ```
 
