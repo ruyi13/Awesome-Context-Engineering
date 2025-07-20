@@ -13,6 +13,15 @@
 
 A comprehensive survey and collection of resources on **Context Engineering** - the evolution from static prompting to dynamic, context-aware AI systems.
 
+## 📧 Contact
+
+For questions, suggestions, or collaboration opportunities, please feel free to reach out:
+
+**Lingrui Mei**  
+📧 Email: [meilingrui22@mails.ucas.ac.cn](mailto:meilingrui22@mails.ucas.ac.cn)
+
+**I wrote the wrong email address in my paper!!** You can also open an issue in this repository for general discussions and suggestions.
+
 ---
 
 ## 📰 News
