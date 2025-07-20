@@ -20,7 +20,7 @@ For questions, suggestions, or collaboration opportunities, please feel free to 
 **Lingrui Mei**  
 📧 Email: [meilingrui22@mails.ucas.ac.cn](mailto:meilingrui22@mails.ucas.ac.cn)
 
-**I wrote the wrong email address in my paper!!** You can also open an issue in this repository for general discussions and suggestions.
+**I WROTE THE WRONG EMAIL ADDRESS IN MY PAPER!!** You can also open an issue in this repository for general discussions and suggestions.
 
 ---
 
