@@ -18,9 +18,9 @@ A comprehensive survey and collection of resources on **Context Engineering** - 
 For questions, suggestions, or collaboration opportunities, please feel free to reach out:
 
 **Lingrui Mei**  
-📧 Email: [meilingrui22@mails.ucas.ac.cn](mailto:meilingrui22@mails.ucas.ac.cn)
+📧 Email:  [meilingrui25b@ict.ac.cn](mailto:meilingrui25b@ict.ac.cn) or [meilingrui22@mails.ucas.ac.cn](mailto:meilingrui22@mails.ucas.ac.cn)
 
-**I WROTE THE WRONG EMAIL ADDRESS IN MY PAPER!!** You can also open an issue in this repository for general discussions and suggestions.
+**I WROTE THE WRONG EMAIL ADDRESS IN THE FIRST VERSION OF MY PAPER!!** You can also open an issue in this repository for general discussions and suggestions.
 
 ---
 
