@@ -228,6 +228,10 @@ This repository serves as a comprehensive survey of context engineering techniqu
     </a></li>
 <li><i><b>MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent</b></i>, Anonymous et al., <a href="https://arxiv.org/abs/2507.02259" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.07-red" alt="arXiv Badge"></a>
     </li>
+<li><i><b>Memory OS of AI Agent</b></i>, Kang et al., <a href="https://arxiv.org/abs/2506.06326" target="_blank"><img src="https://img.shields.io/badge/arXiv-2025.05-red" alt="arXiv Badge"></a>
+    <a href="https://github.com/BAI-LAB/MemoryOS" target="_blank">
+  		<img src="https://img.shields.io/github/stars/BAI-LAB/MemoryOS.svg?style=social" alt="GitHub stars">
+    </a></li>
 </ul>
 <b>Graph-based Memory Systems</b>
 
