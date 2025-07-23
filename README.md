@@ -4,6 +4,12 @@
   <img src="cover.png" alt="Awesome Context Engineering Cover" width="800"/>
 </div>
 
+## 💬 Join Our Community
+
+<div align="center">
+  <img src="assets/wechat_group.png" alt="WeChat Group" width="200"/>
+  <p><strong>Join our WeChat group for discussions and updates!</strong></p>
+</div>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -42,48 +48,69 @@ This repository serves as a comprehensive survey of context engineering techniqu
 
 ## 📚 Table of Contents
 
-- [🔗 Related Survey](#-related-survey)
-  - General AI Survey Papers
-  - Context and Reasoning  
-  - Memory Systems and Context Persistence
-
-- [🏗️ Definition of Context Engineering](#-definition-of-context-engineering)
-  - LLM Generation Process
-  - Definition of Context
-  - Context Engineering Formalization
-  - Dynamic Context Orchestration
-  - Mathematical Principles & Bayesian Framework
-
-- [🤔 Why Context Engineering?](#-why-context-engineering)
-  - The Paradigm Shift: From Tactical to Strategic
-  - Fundamental Challenges with Current Approaches
-  - Limitations of Static Prompting
-  - Enterprise and Production Requirements
-  - Cognitive and Information Science Foundations
-
-- [🔧 Components, Techniques and Architectures](#-components-techniques-and-architectures)
-  - **Context Scaling**: Position interpolation, memory-efficient attention, ultra-long sequences (100K+ tokens)
-  - **Structured Data Integration**: Knowledge graphs, graph neural networks, structured data processing
-  - **Self-Generated Context**: Autonomous reasoning, iterative refinement, self-improvement
-
-- [🛠️ Implementation and Challenges](#-implementation-and-challenges)
-  - **Retrieval-Augmented Generation (RAG)**: Foundation models, advanced strategies, multimodal integration
-  - **Memory Systems**: Persistent context, hierarchical memory, long-term storage
-  - **Agent Communication**: Multi-agent protocols, coordination, collaborative reasoning
-  - **Tool Use and Function Calling**: API integration, external system interaction
-
-- [📊 Evaluation Paradigms for Context-Driven Systems](#-evaluation-paradigms-for-context-driven-systems)
-  - Context Quality Assessment (RULER, LongBench, InfiniteBench)
-  - Benchmarking Context Engineering Systems
-
-- [🚀 Applications and Systems](#-applications-and-systems)
-  - **Complex Research Systems**: AI-powered scientific discovery, automated research workflows
-  - **Production Systems**: Enterprise applications, conversational agents, real-world deployments
-
-- [🔮 Limitations and Future Directions](#-limitations-and-future-directions)
-  - Current Technical Limitations
-  - Future Research Opportunities
-  - Emerging Paradigms and Technologies
+- [Awesome Context Engineering](#awesome-context-engineering)
+  - [💬 Join Our Community](#-join-our-community)
+  - [📧 Contact](#-contact)
+  - [📰 News](#-news)
+  - [🎯 Introduction](#-introduction)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🔗 Related Survey](#-related-survey)
+  - [🏗️ Definition of Context Engineering](#️-definition-of-context-engineering)
+    - [LLM Generation](#llm-generation)
+    - [Definition of Context](#definition-of-context)
+    - [Definition of Context Engineering](#definition-of-context-engineering)
+    - [Dynamic Context Orchestration](#dynamic-context-orchestration)
+    - [Mathematical Principles](#mathematical-principles)
+    - [Theoretical Framework: Bayesian Context Inference](#theoretical-framework-bayesian-context-inference)
+    - [Comparison](#comparison)
+  - [🌐 Related Blogs](#-related-blogs)
+    - [Social Media \& Talks](#social-media--talks)
+  - [🤔 Why Context Engineering?](#-why-context-engineering)
+    - [The Paradigm Shift: From Tactical to Strategic](#the-paradigm-shift-from-tactical-to-strategic)
+    - [1. Fundamental Challenges with Current Approaches](#1-fundamental-challenges-with-current-approaches)
+      - [Human Intent Communication Challenges](#human-intent-communication-challenges)
+      - [Complex Knowledge Requirements](#complex-knowledge-requirements)
+      - [Reliability and Trustworthiness Issues](#reliability-and-trustworthiness-issues)
+    - [2. Limitations of Static Prompting](#2-limitations-of-static-prompting)
+      - [From Strings to Systems](#from-strings-to-systems)
+      - [The "Movie Production" Analogy](#the-movie-production-analogy)
+    - [3. Enterprise and Production Requirements](#3-enterprise-and-production-requirements)
+      - [Context Failures Are the New Bottleneck](#context-failures-are-the-new-bottleneck)
+      - [Scalability Beyond Simple Tasks](#scalability-beyond-simple-tasks)
+      - [Reliability and Consistency](#reliability-and-consistency)
+      - [Economic and Operational Efficiency](#economic-and-operational-efficiency)
+    - [4. Cognitive and Information Science Foundations](#4-cognitive-and-information-science-foundations)
+      - [Artificial Embodiment](#artificial-embodiment)
+      - [Information Retrieval at Scale](#information-retrieval-at-scale)
+    - [5. The Future of AI System Architecture](#5-the-future-of-ai-system-architecture)
+  - [🔧 Components, Techniques and Architectures](#-components-techniques-and-architectures)
+    - [Context Scaling](#context-scaling)
+    - [Structured Data Integration](#structured-data-integration)
+    - [Self-Generated Context](#self-generated-context)
+  - [🛠️ Implementation and Challenges](#️-implementation-and-challenges)
+    - [1. Retrieval-Augmented Generation (RAG)](#1-retrieval-augmented-generation-rag)
+    - [2. Memory Systems](#2-memory-systems)
+    - [3. Agent Communication](#3-agent-communication)
+    - [4. Tool Use and Function Calling](#4-tool-use-and-function-calling)
+  - [📊 Evaluation Paradigms for Context-Driven Systems](#-evaluation-paradigms-for-context-driven-systems)
+    - [Context Quality Assessment](#context-quality-assessment)
+    - [Benchmarking Context Engineering](#benchmarking-context-engineering)
+  - [🚀 Applications and Systems](#-applications-and-systems)
+    - [Complex Research Systems](#complex-research-systems)
+    - [Production Systems](#production-systems)
+  - [🔮 Limitations and Future Directions](#-limitations-and-future-directions)
+    - [Current Limitations](#current-limitations)
+    - [Future Research Directions](#future-research-directions)
+  - [🤝 Contributing](#-contributing)
+    - [Paper Formatting Guidelines](#paper-formatting-guidelines)
+    - [Badge Colors](#badge-colors)
+  - [📄 License](#-license)
+  - [📑 Citation](#-citation)
+  - [⚠️ Disclaimer](#️-disclaimer)
+  - [📧 Contact](#-contact-1)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [Star History](#star-history)
+  - [📖 Our Paper](#-our-paper)
 
 ---
 
