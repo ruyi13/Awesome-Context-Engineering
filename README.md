@@ -10,6 +10,7 @@
   <img src="assets/wechat_group.png" alt="WeChat Group" width="200"/>
   <p><strong>Join our WeChat group for discussions and updates!</strong></p>
 </div>
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
