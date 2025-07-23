@@ -9,6 +9,7 @@
 <div align="center">
   <img src="assets/wechat_group.png" alt="WeChat Group" width="200"/>
   <p><strong>Join our WeChat group for discussions and updates!</strong></p>
+  <p><a href="https://discord.gg/fsqs3Ybh"><strong>Join our Discord server</strong></a></p>
 </div>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
